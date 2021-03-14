@@ -27,3 +27,5 @@ if any changes we have made COMMIT
 -- message
 -- COMMIT
 PUSH
+ git config --global user.email "ramansirji56@gmail.com"
+  git config --global user.name "rramangrover"
