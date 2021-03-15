@@ -1,9 +1,9 @@
 WHAT IS GIT ?               ---DONE
 WHAT IS REPOSITRY ?         ---DONE
 WHAT ARE BRANCHES ?         ---DONE
-HOW TO COMMIT THE CODE ?    
-HOW TO PULL CODE ?
-HOW TO PUSH THE CODE ?
+HOW TO COMMIT THE CODE ?    ---DONE
+HOW TO PULL CODE ?          ---DONE
+HOW TO PUSH THE CODE ?      ---DONE
 
 
 common folder jo ki web(internet)
@@ -46,5 +46,5 @@ BRANCHES
 IF ANY CHANGES IN MY FOLDER
 
     STAGE MY CHANGES
-    MESSAGE 
+    MESSAGE     
     COMMIT
