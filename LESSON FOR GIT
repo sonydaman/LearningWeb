@@ -1,0 +1,50 @@
+WHAT IS GIT ?               ---DONE
+WHAT IS REPOSITRY ?         ---DONE
+WHAT ARE BRANCHES ?         ---DONE
+HOW TO COMMIT THE CODE ?    
+HOW TO PULL CODE ?
+HOW TO PUSH THE CODE ?
+
+
+common folder jo ki web(internet)
+    any body can access that specific code
+    text,videos,audio,images
+code
+    facebook,google
+open source (free licenc version)
+paid(GIT)
+code related issue
+    defect,bug,issue
+
+END USER -- website user                (payment,blogs read)
+ADMIN USER -- web site handel           (Product,rating,blog write,coment)
+
+
+NEW FOLDER (PROJECT) -- REPOSITORY
+    (URL,LINK)
+    copy,download,clone
+
+BRANCHES (ADVANCE FOLDER)
+    13-MARCH gallery            backup
+    14-MARCH completed          backup
+    15-MARCH working (ABOUT US) backup
+    16-MARCH completed about us backup
+
+BRANCHES
+--MAIN 
+    -- gallery
+        --13
+            code
+        --14
+            code
+        --15
+            code
+    -- about
+        code
+
+
+IF ANY CHANGES IN MY FOLDER
+
+    STAGE MY CHANGES
+    MESSAGE 
+    COMMIT
