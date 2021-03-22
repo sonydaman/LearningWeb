@@ -44,3 +44,7 @@ header
 main
 
 footer
+
+absolute path ./
+relative path (url,link,drive)
+cd ..

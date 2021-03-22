@@ -1,5 +1,5 @@
 What is a web application ?
-Why do we use html ?
+Why do we use html ? hyper text markup language
 where can we use ?
 how to create a html file ?
 how to run the html file ?
