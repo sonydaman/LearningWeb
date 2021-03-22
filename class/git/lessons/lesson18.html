@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p.center {
+        text-align: center;
+        color: red;
+      }
+
+      p.right {
+        text-align: right;
+        color: blueviolet;
+      }
+
+      p.left {
+        text-align: left;
+        color: greenyellow;
+      }
+
+      p.large {
+        font-size: 300%;
+      }
+      p.big {
+        font-size: 200%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">
+      This heading will not be affected. <br />
+      THE EFFECT IS NOT DUE TO P.CENTER AND P.LARGE.
+    </h1>
+    <p class="center">
+      This paragraph will be red and center-aligned.<br />
+      IT IS DUE TO P.CENTER. THE TEXT IS IN THE CENTER AND RED COLOURED.
+    </p>
+    <p class="right">
+      This paragraph will be red and right-aligned.<br />
+      IT IS DUE TO P.RIGHT.<br />
+      THE TEXT IS RIGHT ALIGNED AND BLUEVIOLET COLOURED.
+    </p>
+    <p class="center large">
+      This paragraph will be red, center-aligned, and in a large font-size.<br />
+      THE EFFECT IS DUE TO CENTER AND LARGE (300%)
+    </p>
+    <p class="center big">
+      This paragraph will be red and center-aligned.<br />
+      IT IS DUE TO P.CENTER. THE TEXT IS IN THE CENTER AND RED COLOURED. THE
+      EFFECT IS DUE TO CENTER AND LARGE (200%)
+    </p>
+    <p class="right large">
+      This paragraph will be BLUEVIOLET and right-aligned.<br />
+      IT IS DUE TO P.RIGHT.<br />
+      THE TEXT IS RIGHT ALIGNED<br />
+      THE TEXT IS RIGHT ALIGNED AND BLUEVIOLET COLOURED.
+    </p>
+    <p class="left big">
+      This paragraph will be red and left-aligned.<br />
+      IT IS DUE TO P.LEFT. <br />THE TEXT IS IN THE LEFT<br />
+      AND GREENYELLOW COLOURED. <br />THE EFFECT IS DUE TO LEFT AND BIG (200%)
+    </p>
+  </body>
+</html>
