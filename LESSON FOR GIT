@@ -1,9 +1,24 @@
+<<<<<<< HEAD
 WHAT IS GIT ?               ---DONE
 WHAT IS REPOSITRY ?         ---DONE
 WHAT ARE BRANCHES ?         ---DONE
 HOW TO COMMIT THE CODE ?    ---DONE
 HOW TO PULL CODE ?          ---DONE
 HOW TO PUSH THE CODE ?      ---DONE
+=======
+
+
+
+
+
+
+WHAT IS GIT ?               --Ok   
+WHAT IS REPOSITRY ?         --ok  
+WHAT ARE BRANCHES ?         --ok
+HOW TO COMMIT THE CODE ?    --OK
+HOW TO PULL CODE ?          --OK
+HOW TO PUSH THE CODE ?      --OK
+>>>>>>> 6dc7e5ee443d53a190a9f91cfe8151d0ae8331b1
 
 
 common folder jo ki web(internet)
@@ -46,5 +61,5 @@ BRANCHES
 IF ANY CHANGES IN MY FOLDER
 
     STAGE MY CHANGES
-    MESSAGE 
+    MESSAGE     
     COMMIT
