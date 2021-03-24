@@ -1,0 +1,8 @@
+We have get to steps to make a form.
+1. Method get
+    This is show your input data in ulr-link(search bar)
+2. Method post
+    This method is not showing your data in url-ink(search bar)
+        For example-Login and register password
+Branches:-
+    It is a roots which have the different things are connected with main 
