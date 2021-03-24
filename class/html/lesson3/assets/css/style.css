@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.heading,
+.sub-heading {
+  text-align: center;
+}
+.student-form {
+  border: 1px solid teal;
+  text-align: center;
+  height: 40%;
+  margin: 1rem;
+  width: 50%;
+  transform: translateX(50%);
+}
+.field {
+  padding: 1rem;
+  border-bottom: 1px solid #bdbdbd;
+}
