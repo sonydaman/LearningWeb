@@ -14,7 +14,7 @@
         <li> <a href="Men.html">Men</a></li>
         <li> <a href="Women.html">Women</a></li>
         <li> <a href="Account.html">Account</a></li>
-        <li> <a href="contact.html">Contact us</a></li>
+        <li> <a href="./contact.html">Contact us</a></li>
       </ul>
     </header>
     <main>
@@ -27,23 +27,73 @@
     </main>
     <div>
       Fill the form in Capital Letters to Join Our Website.
-      <form>
+      <form action="" method="get">
             <h3>Name</h3>
             <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">   Last name:</label>
-            <input type="text" id="lname" name="lname"><br>
-            <input type="radio" id= "Male" name="gender" id="Male">
-            <label for="Male">Male</label><br>
-            <input type="radio" id= "Female" name="gender" id="Female">
-            <label for="Female">Female</label><br>
+              <input 
+                placeholder="Enter Your First name"
+                type="text" 
+                id="fname" 
+                name="fname"
+                required
+                />
+            <label for="lname">Last name:</label>
+              <input 
+                placeholder="Enter your last Name" 
+                type="text" 
+                id="lname" 
+                name="lname"
+                required
+                />
+                <br/>
+          <h3> Gender :</h3>
+            <label for="Male">Male</label>
+              <input 
+              type="radio" 
+              id= "Male" 
+              name="gender" 
+              />
+            
+            <label for="Female">Female</label>
+              <input 
+              type="radio" 
+              id= "Female" 
+              name="gender" 
+              />
+              <br/>
+
             <label for="Email">Email</label>
-            <input for="text" id="Email" name="Email"><br>
+              <input
+                placeholder="Enter yor Email address" 
+                for="Email" 
+                id="Email" 
+                name="Email"
+                required
+                />
+                <br/>
             <label for="text"> Comment or Message</label>
-            <input type="text" id="Message" name="message"><br> 
-            <button type= "submit">Submit</button>
+              <input
+                placeholder="Your Feedback is important for us" 
+                type="text" 
+                id="Message" 
+                name="message"
+              />
+              <br/> 
+              <input 
+                type="submit"
+                value="Submit Your form"/>
       </form>    
     </div>
+    <footer>
+      Quick links
+      <li><a href = "./index.html">Home</a></li>
+      <li><a href="./aboutus.html">About us</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./contact.html">contact</a></li>
+
+      Copyright 2021 Khu$hal<br/>
+      Powered By M@ddey
+    </footer>                                                                                                                                                                                                           
     take reference from http://www.sonydaman.co.in/contact-us/ Contact create a
     form for khushal Chugh
   </body>
