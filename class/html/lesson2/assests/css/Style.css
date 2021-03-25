@@ -1,0 +1,26 @@
+html,body{
+    height : 100%;
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+.field{
+    border: 1px solid green;
+    text-align: left;
+    height: 40%;
+    margin: 1rem;
+    width: 60%;
+    padding: 0px;
+    border-bottom: 1px solid;
+    background-color: lightgreen;
+    transform: translateX(2%);
+}
+
+.form{
+    padding: 1rem;
+    border-bottom: 1px solid green;
+    
+}
+
+
+
