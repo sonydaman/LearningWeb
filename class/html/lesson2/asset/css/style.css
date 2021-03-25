@@ -1,0 +1,12 @@
+.heading{
+    text-align: center;
+    color: brown; font-size: xx-large;
+}
+.aimage{display: block;
+}
+.simage{}
+.serimage{display: block;}
+.aparagraph{text-align: center; font-size: large; font-style: italic;}
+.sparagraph{text-align: right; font-size: medium; font-style: italic;}
+.serparagraph{text-align: left; font-size: medium; font-style: italic;}
+.subheading{text-align: center; color: tomato;}
