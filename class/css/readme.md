@@ -44,3 +44,4 @@ body 1rem = 16px
 ------->1em = 8px
 ------->h1 1em = 8px
 ------->h1 1rem = 16px
+pesudo selector
