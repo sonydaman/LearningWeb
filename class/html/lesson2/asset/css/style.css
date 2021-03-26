@@ -1,12 +1,37 @@
 .heading{
     text-align: center;
     color: brown; font-size: xx-large;
+    font-style: italic;
+    justify-content: center;
 }
-.aimage{display: block;
+.subheading{
+    text-align: center;
+    color: tomato; font-size: x-large;
+    font-style: italic;
 }
-.simage{}
-.serimage{display: block;}
-.aparagraph{text-align: center; font-size: large; font-style: italic;}
-.sparagraph{text-align: right; font-size: medium; font-style: italic;}
-.serparagraph{text-align: left; font-size: medium; font-style: italic;}
-.subheading{text-align: center; color: tomato;}
+.buttons{
+    text-align: end;
+}
+.paragraph1{
+    font-size: medium; font-style: italic;
+justify-content: flex-start;
+}
+    .paragraph2{
+        font-size: medium; font-style: italic;
+        text-align: end;
+        
+    }
+.paragraph3{
+    font-size: medium; font-style: italic;
+    text-align: center;
+    }
+    .image{
+        align-items: flex-start
+    };
+    }
+    .image2{
+        align-content: center;
+    }
+    .image3{
+        align-items: flex-start;
+    }
