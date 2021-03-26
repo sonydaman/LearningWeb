@@ -1,0 +1,30 @@
+.heading{
+    text-align: center;
+    color: brown; font-size: xx-large;
+    font-style: italic;
+}
+.subheading{
+    text-align: center;
+    color: tomato; font-size: x-large;
+    font-style: italic;
+}
+.paragraph1{
+    font-size: medium; font-style: italic;
+}
+    .paragraph2{
+        font-size: medium; font-style: italic;
+        text-align: end;
+        
+    }
+.paragraph3{
+    font-size: medium; font-style: italic;
+    text-align: center;
+    }
+    .image{};
+    }
+    .image2{
+        align-items: flex-end
+    }
+    .image3{
+        align-items: flex-start;
+    }
