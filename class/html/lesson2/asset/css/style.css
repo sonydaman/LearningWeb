@@ -2,14 +2,19 @@
     text-align: center;
     color: brown; font-size: xx-large;
     font-style: italic;
+    justify-content: center;
 }
 .subheading{
     text-align: center;
     color: tomato; font-size: x-large;
     font-style: italic;
 }
+.buttons{
+    text-align: end;
+}
 .paragraph1{
     font-size: medium; font-style: italic;
+justify-content: flex-start;
 }
     .paragraph2{
         font-size: medium; font-style: italic;
@@ -20,10 +25,12 @@
     font-size: medium; font-style: italic;
     text-align: center;
     }
-    .image{};
+    .image{
+        align-items: flex-start
+    };
     }
     .image2{
-        align-items: flex-end
+        align-content: center;
     }
     .image3{
         align-items: flex-start;
