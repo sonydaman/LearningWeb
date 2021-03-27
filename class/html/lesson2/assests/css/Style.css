@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.image{
+    transform: translate(10%);
+    margin: 10px 10px 10px 10px;
+}
+.field {
+  border: 1px solid green;
+  text-align: left;
+  height: 40%;
+  margin: 1rem;
+  width: 60%;
+  padding: 0px;
+  border-bottom: 1px solid;
+  background-color: lightgreen;
+  transform: translateX(2%);
+}
+
+.form {
+  padding: 1rem;
+  border-bottom: 1px solid green;
+}
+
+.menu {
+    width: 100%;
+    background-color: #bdbdbd;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+  }
+  .list-item {
+    flex-basis: 25%;
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin: 0 1em;
+  }
+
+  .list-item a {
+    color: white;
+    text-decoration: none;
+  }
+  .list-item:hover a {
+    color: #bdbdbd;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .copy{
+      display: inline-flex;
+      justify-content: space-around;
+  }

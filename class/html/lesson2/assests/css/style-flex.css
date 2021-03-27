@@ -1,0 +1,31 @@
+.menu {
+  width: 100%;
+  background-color: #bdbdbd;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+}
+.list-item {
+  flex-basis: 25%;
+  display: inline-flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  margin: 0 1em;
+}
+.list-item a {
+  color: white;
+  text-decoration: none;
+}
+.list-item:hover,
+.list-item:hover a {
+  color: #bdbdbd;
+  background-color: white;
+  cursor: pointer;
+}

@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="./assests/css/Style.css" />
   </head>
   <body>
     <header>
-      <ul>
-        <li> <a href="./index.html">Home</a></li>
-        <li> <a href="Store.html">Store</a></li>
-        <li> <a href="Men.html">Men</a></li>
-        <li> <a href="Women.html">Women</a></li>
-        <li> <a href="Account.html">Account</a></li>
-        <li> <a href="./contact.html">Contact us</a></li>
-      </ul>
+      <div class="menu">
+        <ul class="list">
+          <li class="list-item"> <a href="./index.html">Home</a></li>
+          <li class="list-item"> <a href="./Store.html">Store</a></li>
+          <li class="list-item"> <a href="./Men.html">Men</a></li>
+          <li class="list-item"> <a href="./Women.html">Women</a></li>
+          <li class="list-item"> <a href="./Account.html">Account</a></li>
+          <li class="list-item"> <a href="./contact.html">Contact us</a></li>
+        </ul>
+      </div>
     </header>
-    <main>
-      <img src="http://unsplash.it/1200/800?id=2" alt = "Contact">
-      <h1>Questions, Comments? <Br>You tell us. We listen.</h1>
-        <address>Email: info@example .com</address>
-        <address>Toll-free number: 1800 123 4567,<br>
+    <img class="image" src="http://unsplash.it/1200/800?id=2" alt = "Contact">
+    <main style="display:flex; margin-left: 100px;">
+      <address><h1>Questions, Comments? <Br>You tell us. We listen.</h1>
+        <p>Email: info@example .com</p>
+        <p>Toll-free number: 1800 123 4567,<br>
           Monday to Saturday – 9:00 am to 7:00 pm<br>
-          Sunday – 10:00 am to 5:00 pm</address>
-    </main>
-    <div>
-      Fill the form in Capital Letters to Join Our Website.
+          Sunday – 10:00 am to 5:00 pm</p></address>
+    <div class="field">
+      <h2 style="background-color:white ; color: turquoise;font-size: 20px; text-align: center;"> Fill the form in Capital Letters to Join Our Team</h2>
       <form action="" method="get">
-            <h3>Name</h3>
-            <label for="fname">First name:</label>
+            <h3 style="color: blue;text-align: left;margin-left: 10px;">Name :*</h3>
+            <label class="form" for="fname">First name:</label>
               <input 
                 placeholder="Enter Your First name"
                 type="text" 
@@ -37,7 +39,7 @@
                 name="fname"
                 required
                 />
-            <label for="lname">Last name:</label>
+            <label class="form" for="lname">Last name:</label>
               <input 
                 placeholder="Enter your last Name" 
                 type="text" 
@@ -46,15 +48,15 @@
                 required
                 />
                 <br/>
-          <h3> Gender :</h3>
-            <label for="Male">Male</label>
+          <h3 style="color: blue;text-align: left;margin-left: 15px;"> Gender :</h3>
+            <label class="form" for="Male">Male</label>
               <input 
               type="radio" 
               id= "Male" 
               name="gender" 
               />
             
-            <label for="Female">Female</label>
+            <label class = "form" for="Female">Female</label>
               <input 
               type="radio" 
               id= "Female" 
@@ -62,7 +64,7 @@
               />
               <br/>
 
-            <label for="Email">Email</label>
+            <label class="form" for="Email">Email</label>
               <input
                 placeholder="Enter yor Email address" 
                 type="Email" 
@@ -71,7 +73,7 @@
                 required
                 />
                 <br/>
-            <label for="text"> Comment or Message</label>
+            <label class="form" for="text"> Comment or Message</label>
               <input
                 placeholder="Your Feedback is important for us" 
                 type="text" 
@@ -79,21 +81,25 @@
                 name="message"
               />
               <br/> 
-              <input 
+              <input
                 type="submit"
                 value="Submit Your form"/>
       </form>    
     </div>
-    <footer>
+    </main>
+    <footer style="margin-left: 50px;">
       Quick links
       <li><a href = "./index.html">Home</a></li>
       <li><a href="./aboutus.html">About us</a></li>
       <li><a href="./gallery.html">Gallery</a></li>
       <li><a href="./contact.html">contact</a></li>
-
-      Copyright 2021 Khu$hal<br/>
-      Powered By M@ddey
-    </footer>                                                                                                                                                                                                           
+        <div class="copy">
+          Powered By <br> M@ddey
+        </div>
+        <div class="copy">
+          Copyright 2021 <br> Khu$hal<br/>
+        </div>
+      </footer>                                                                                                                                                                                                           
     take reference from http://www.sonydaman.co.in/contact-us/ Contact create a
     form for khushal Chugh
   </body>
