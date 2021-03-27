@@ -1,3 +1,4 @@
+
 .heading{
     text-align: center;
     color: brown; font-size: xx-large;
@@ -7,31 +8,28 @@
 .subheading{
     text-align: center;
     color: tomato; font-size: x-large;
+    font-style: italic;}
+.buttons{
+    border: 10px 0 salmon;
+    padding: 20px 0;
+}
+.items1{;
+}
+.items1 p{
+    justify-content: center;
+    text-align: center; 
+    font-size: medium;
+    font-style: italic; 
+}
+
+.items2 p{ justify-content: flex-start;
+    text-align: center;
+    font-size: medium;
     font-style: italic;
 }
-.buttons{
-    text-align: end;
-}
-.paragraph1{
-    font-size: medium; font-style: italic;
-justify-content: flex-start;
-}
-    .paragraph2{
-        font-size: medium; font-style: italic;
-        text-align: end;
-        
-    }
-.paragraph3{
-    font-size: medium; font-style: italic;
+.items3 p{
+    justify-content: right;
     text-align: center;
-    }
-    .image{
-        align-items: flex-start
-    };
-    }
-    .image2{
-        align-content: center;
-    }
-    .image3{
-        align-items: flex-start;
-    }
+    font-size: medium;
+    font-style: italic;
+}
