@@ -1,5 +1,5 @@
 .heading{
-    text-align: center;
+    text-align: centre;
     color: brown; font-size: xx-large;
     font-style: italic;
     justify-content: center;
@@ -12,22 +12,43 @@
     border: 10px 0 salmon;
     padding: 20px 0;
 }
-
-.items1 p{
+.items1{
+    border:inset;
+}
+.items1 img{
+    padding: 10px 10px;
+    
+}
+.items1 p{ 
+    padding: 0px 20px;
     justify-content: center;
-    text-align: center; 
     font-size: medium;
     font-style: italic; 
+    text-align: justify;
+}
+.items2{
+    border: inset;
+}
+.items2 img{padding: 10px 10px;
+    flex-direction: row-reverse;
 }
 
-.items2 p{ justify-content: flex-start;
-    text-align: center;
+.items2 p{
+    padding: 0px 20px;
+    justify-content:flex-end;
     font-size: medium;
     font-style: italic;
 }
+.items3{
+    border: inset;
+}
+.items3 img{
+    padding: 10px 10px;
+}
 .items3 p{
-    justify-content: right;
-    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+    text-align:justify;
     font-size: medium;
     font-style: italic;
 }
