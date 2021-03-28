@@ -30,7 +30,7 @@
     border: inset;
 }
 .items2 img{padding: 10px 10px;
-    flex-direction: row-reverse;
+flex-direction: row-re;
 }
 
 .items2 p{
