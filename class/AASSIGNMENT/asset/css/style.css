@@ -1,0 +1,9 @@
+.body{
+    margin:30px ;
+}
+.div1{
+    margin: 10px;
+    border: solid tomato;
+    justify-content: right;
+    align-items: center;
+}
