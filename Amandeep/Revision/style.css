@@ -1,3 +1,10 @@
-p{
-    color: rgb(153, 165, 42);
+.menu{
+    width: 100%;
+    background-color: dodgerblue;
 }
+h1{
+    color: cadetblue; text-align: center;
+  }
+  img{
+    border: dimgray; margin: 1.5%;
+  }
