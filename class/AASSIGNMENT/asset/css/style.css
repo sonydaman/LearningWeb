@@ -143,8 +143,14 @@
     object-fit: contain;
 }
 /* For Tablet */
-/* @media(max-width:768px){
-} */
+ @media(max-width:768px){
+     .body{width: 90%%;}
+     .div2 img{width: 100%;
+        object-fit: fill;
+    }
+
+
+
 /* For Mobile */
 @media(max-width:576px){
     .div1{
