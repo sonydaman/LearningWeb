@@ -1,75 +1,134 @@
 .body{
     margin:30px ;
-    background-color: darkseagreen;
+    background-color: lightgoldenrodyellow;
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    font-size: .5in;
+    font-style: italic;
+    color: tomato;
 }
 .div1{
     margin: 20px 10px;
-    border: solid tomato;
-    justify-content: right;
+    border: solid khaki;
+    padding: 20px;
+    justify-content: flex-end;
     align-items: center;
+    font-style: italic;
+    font-size: larger;
+    color: black;
+    text-align: justify;
 }
 .div2{
     margin:  20px 10px;
-    border: solid salmon;
+    border: solid khaki;
 
 }
-.div3{
-    margin: 20px 10px;
+.div3{ margin: 20px 10px;
 }
 .diva{
     margin: 10px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    color: black;
+    text-align: justify;
 }
 .divb{
     margin: 10px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    text-align: justify;
+    color: black;
 }
 .divc{
     margin: 10px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    text-align: justify;
+    color:black;
 }
 .div4{
     margin: 20px 10px;
-    border: solid salmon;
+    border: solid khaki;
 }
 .div4 p{
     margin: 20px 10px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    text-align: justify;
+    color:black;
 }
 .div5{
     margin: 20px 10px;
-    border: solid salmon;
+    border: solid khaki;
+}
+.div51{
+    margin: 10px;
+    border: solid khaki;
+}
+.heading2{
+    font-style: italic;
+    justify-content: center;
+    text-align: justify;
+    color: tomato;
+    font-size: xx-large;
 }
 .info1{
     margin: 20px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     font-style: italic;
     align-items: center;
+    text-align: justify;
+    color: black;
 }
 .info2{
     margin: 20px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    text-align: justify;
+    color:black;
 }
 .info3{
     margin: 20px;
-    border: solid salmon;
+    border: solid khaki;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     font-style: italic;
+    text-align: justify;
+    color:black;
+}
+.footer{
+    margin: 20px 10px;
+    border: solid khaki;
+}
+.s1{
+    margin: 10px;
+    border: solid khaki;
+}
+.s2{
+    margin: 10px;
+    border: solid khaki;
+}
+.s3{
+    margin: 10p;
+    border: solid khaki;
 }
