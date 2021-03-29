@@ -1,9 +1,75 @@
 .body{
     margin:30px ;
+    background-color: darkseagreen;
 }
 .div1{
-    margin: 10px;
+    margin: 20px 10px;
     border: solid tomato;
     justify-content: right;
     align-items: center;
+}
+.div2{
+    margin:  20px 10px;
+    border: solid salmon;
+
+}
+.div3{
+    margin: 20px 10px;
+}
+.diva{
+    margin: 10px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.divb{
+    margin: 10px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.divc{
+    margin: 10px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.div4{
+    margin: 20px 10px;
+    border: solid salmon;
+}
+.div4 p{
+    margin: 20px 10px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.div5{
+    margin: 20px 10px;
+    border: solid salmon;
+}
+.info1{
+    margin: 20px;
+    border: solid salmon;
+    justify-content: center;
+    font-style: italic;
+    align-items: center;
+}
+.info2{
+    margin: 20px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.info3{
+    margin: 20px;
+    border: solid salmon;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
 }
