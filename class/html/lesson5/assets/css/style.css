@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+}
+h1 {
+  background-color: darkcyan;
+}
+.container {
+  /* border: 1px solid steelblue;
+  width: 80%; */
+}
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid steelblue;
+  margin: 1rem 0;
+  position: relative;
+}
+.items div {
+  margin: 10px;
+  font-size: 28px;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  height: 50px;
+}
+.item-1 {
+  background-color: tomato;
+  color: white;
+}
+.item-2 {
+  background-color: #bdbdbd;
+  color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.item-3 {
+  background-color: yellowgreen;
+  color: violet;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.item-4 {
+  background-color: chocolate;
+  color: white;
+}

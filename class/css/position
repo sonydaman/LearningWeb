@@ -1,0 +1,10 @@
+position
+---static   default
+---relative parent
+---absolute root free
+---fixed    parent element body    
+---sticky   
+
+top:0
+left:0
+z-index:
