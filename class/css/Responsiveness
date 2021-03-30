@@ -1,0 +1,51 @@
+specificity
+
+What is resposivness ?
+Projector   
+Desktop     
+laptop          
+tablet      
+mobile      
+small mobile
+
+
+breakpoints
+    width 
+        more thann 1100 Projector
+        901-1100        Desktop
+        900px           laptop
+        700-899px       tablet
+        500-699px       mobile
+        499px           xtra small mobil
+
+
+
+Breakpoint
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+
+@media(max-width:900 and min-width:700){
+    .header{
+        flex-direction:coloumn
+    }
+}
+@media(max-width:700){
+    .item{
+        flex-direction:coloumn
+    }
+}
+
+
+--mobile
+----mobile first approach
+
+--desktop
+----desktop first approach
+
+
+% and px
+50%   300px
