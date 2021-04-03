@@ -1,0 +1,84 @@
+.titlebar{
+    background-color: #12294c;
+}
+.discription{
+    color: white;
+    padding: 10px;
+    text-align:justify;
+}
+.row-box {
+    position: relative;
+  }
+  .row-free {
+    position: absolute;
+    top: 50%;
+  }
+  
+  }
+  .container-2{
+      margin: 20px;
+      padding: 20px;
+      border: solid blue;
+  }
+  .container-3{
+      margin: 20px;
+      background-image:url("https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/travel-bg-2.png");
+      background-color: #12294c;
+
+  }
+  .card-group{
+      margin: 50px;
+      padding: 30px;
+  }
+  .card{
+      margin: 10px;
+      padding: 10px;
+  }
+  .container-4{
+      display: flex;
+      margin: 20px;
+  }
+  .container-6{
+      display: flex;
+      margin: 20px;
+  }
+  .container7{
+      margin: 20px;
+      display: flex;
+      color: white;
+      background-image: url("https://www.webdevcode.com/wp/eastend/wp-content/uploads/2019/12/bg-counter.png");
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+  }
+  .container-8{
+      display: flex;
+      width: 100%;
+      justify-content: space-between
+      
+    
+      
+  }
+  .container-9{
+      background-color: #f4f6f9;
+      margin:20px  
+      
+  }
+  .card-group{
+      margin: 50px;
+      padding: 30px;
+    
+  }
+  .card{
+      margin: 10px
+      ba
+  }
+  .card-text{
+    color: #565872;
+    font-style: normal;
+
+  }
+  .card-title{
+      color: #565872;
+  }
