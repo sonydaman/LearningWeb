@@ -6,7 +6,7 @@
     background-color: #f6f6f6;
     padding: 70px 30px 60px;
 }
-}
+
 .form-control{
     background-color: #ffffff;
     padding: 8px 12px;
@@ -26,4 +26,30 @@
     justify-content: left;
     position: relative;
     text-align: left;
+}
+.contact-heading{
+    background: url('../Images/breadump-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+        background-size: cover;
+        padding: 100px 0;
+    background-color: #121b51;
+        position: relative;
+        color: white;
+}
+.contact-heading::before{
+    background: rgba(18,41,76,.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+}
+.contact-heading h2,
+.contact-heading .heading,
+.contact-heading a{
+    color: white;
 }
