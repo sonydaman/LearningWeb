@@ -1,180 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-     
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    />
-    <link rel="stylesheet" href="./assets/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> project</title>
+</head>
 
-    <title> project</title>
-  </head>
-  <body>
+<body>
   <div class="titlebar">
     <p class="discription">
-    Welcome to Eastend. We are happy to help you.
+      Welcome to Eastend. We are happy to help you.
     </p>
   </div>
-    <a href="https://webdevcode.com/wp/eastend-demo/home-2/">Template</a>
+  <!-- <a href="https://webdevcode.com/wp/eastend-demo/home-2/">Template</a> -->
+  <div class="main-menu">
 
-<!--start navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  </div>
+  <!--start navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Coaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Conntact us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+              <li><a class="dropdown-item" href="#"> Contact us two</a></li>
+              <li><a class="dropdown-item" href="#">contact us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+  <!--start carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/slider-new111.png"
+          class="d-block w-100" alt="Loading">
+      </div>
+      <div class="carousel-item">
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/slidern-new22.png"
+          class="d-block w-100" alt="Loading">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Coaching</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Conntact us
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Contact us</a></li>
-            <li><a class="dropdown-item" href="#"> Contact us two</a></li>
-            <li><a class="dropdown-item" href="#">contact us</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</nav>
-<!--end navbar-->
-<!--start carousel--><div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/slider-new111.png"
-       class="d-block w-100" alt="Loading">
-    </div>
-    <div class="carousel-item">
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/slidern-new22.png" class="d-block w-100" alt="Loading">
-    </div>
-  
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!--end carousel-->
-<div class="container">
-  <div class="row-box">
-    <div class="row">
-      <div class="col-lg-8 col-sm-12">
-        <h1>Eastend Visa Consulting</h1>
-        <p>
-          We provide best visa services business,education,travel and
-          immigration or lorem zone nuturs etiam justo orci cursus et enim
-          sit amet, tempor eduction,travel and immigration or pursues nor
-          desires to obtain pain of itself, bet it is pain lorem usplus
-          nurmes.
-        </p>
-      </div>
-      <div class="offset-lg-1 col-lg-3 col-sm-12">
-        <img src="https://unsplash.it/400/400" alt="" srcset="" />
+  <!--end carousel-->
+  <section class="section section-about-us">
+    <div class="container row-box">
+      <div class="row">
+        <div class="col-lg-7 col-sm-12">
+          <div class="heading">
+            <h5 class="sub-heading">ABOUT US</h5>
+            <h2 class="main-heading">Eastend Visa Consulting</h2>
+          </div>
+          <div class="desc">
+            <p>
+              We provide best visa services business,education,travel and
+              immigration or lorem zone nuturs etiam justo orci cursus et enim
+              sit amet, tempor eduction,travel and immigration or pursues nor
+              desires to obtain pain of itself, bet it is pain lorem usplus
+              nurmes.
+            </p>
+            <p>
+              Best immigration visa services for business,eduction,travel and immigration or pursues nor desires to
+              obtain pain of itself, bet it is pain, but because occasionally can non dis nostra integer eleifend eros
+              nulla senectus, packages as their default eastend of visa processing lorem zone nuturs etiam justo orci
+              cursus et enim sit amet, tempor lorem tempor nun
+            </p>
+          </div>
+          <div class="row">
+            <div class="col main-content">
+              <div class="icon-container">
+                <i class="fa fa-car"></i>
+              </div>
+              <div class="text-container">
+                <div class="content-title">
+                  Certified Company
+                </div>
+                <div class="content-desc">
+                  Recommended hundreds of people for immigration
+                </div>
+              </div>
+            </div>
+            <div class="col main-content">
+              <div class="icon-container">
+                <i class="fa fa-car"></i>
+              </div>
+              <div class="text-container">
+                <div class="content-title">
+                  Awards Winning
+                </div>
+                <div class="content-desc">
+                  Trust by hundreds people for winning awards for visa
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img class="content-img"
+            src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/04/about-image.jpg" alt="" />
+        </div>
       </div>
     </div>
-    <div class="row row-free">
-      <div class="col-lg-8 col-sm-12">
-        <h1>Eastend Visa Consulting</h1>
-        <p>
-          We provide best visa services business,education,travel and
-          immigration or lorem zone nuturs etiam justo orci cursus et enim
-          sit amet, tempor eduction,travel and immigration or pursues nor
-          desires to obtain pain of itself, bet it is pain lorem usplus
-          nurmes.
-        </p>
-      </div>
-      <div class="col-lg-3 col-sm-12">
-        <img
-          class="img-thumbnail"
-          src="https://unsplash.it/400/400"
-          alt=""
-          srcset=""
-        />
-        <i class="fa fa-car"></i>
-      </div>
-    </div>
-  </div>
-</div>
+  </section>
 
 
-  
 
 
-<div class="container-3">
-  <div class="card-group">
-    <div class="card">
-      <h5 class="card-title">United States</h5>
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/us.jpg" class="card-img-top" alt="Loading">
-      <div class="card-body">
-        
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        
-        
-      </div>
+  <div class="container-3">
+    <div class="section-title">
+      <h5 class="section-sub-heading">POPULAR COUNTRY</h5>
+      <h2 class="section-main-heading">Immigration Country</h2>
     </div>
-    <div class="card">
-      <h5 class="card-title">United Kingdom</h5>
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/uk.jpg" class="card-img-top" alt="Loading">
-      <div class="card-body">
-        
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="card-group">
+      <div class="card immigration-card">
+        <h5 class="card-title">United States</h5>
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/us.jpg" class="card-img-top"
+          alt="Loading">
+        <div class="card-body">
+
+          <p class="card-text">United States has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
+          <div class="card-btn">
+            <a href="">
+              Read More
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <h5 class="card-title">Australia</h5>
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/australia-2.jpg" class="card-img-top" alt="Loading">
-      <div class="card-body">
-        
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="card immigration-card">
+        <h5 class="card-title">United Kingdom</h5>
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/uk.jpg" class="card-img-top"
+          alt="Loading">
+        <div class="card-body">
+
+          <p class="card-text">United Kingdom country has egestas diam in arcu cursus euismod quis justo inas.</p>
+          <div class="card-btn">
+            <a href="">
+              Read More
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card immigration-card">
+        <h5 class="card-title">Australia</h5>
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/australia-2.jpg"
+          class="card-img-top" alt="Loading">
+        <div class="card-body">
+
+          <p class="card-text">Australia country has egestas diam in arcu cursus euismod quis justo laoreet sit.</p>
+          <div class="card-btn">
+            <a href="">
+              Read More
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="container-4">
-  <div>
-    <div class="card" style="width: 18rem;">
+  <div class="container-4">
+    <div>
+      <div class="card" style="width: 18rem;">
       </div>
     </div>
     <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services22.jpg" alt="Loading">
-    
-      <h5>Education visa</h5>
-      <p>
-        Education Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul
-      
+
+    <h5>Education visa</h5>
+    <p>
+      Education Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul
+
     </p>
   </div>
   <div>
@@ -190,162 +237,167 @@
     <p>Work Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul lorem.
 
     </p>
-    </div>
-    </div>
-    <div class="container-6">
+  </div>
+  </div>
+  <div class="container-6">
     <div>
       <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services44.jpg" alt="Loading">
       <h5>Family visa</h5>
       <p>Family Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul
 
       </p>
-      </div>
-      <div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services55.jpg" alt="Loading">
-        <h5>Tourist Visa</h5>
-        <p>Tourist Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul
-
-
-        </p>
-      </div>
-      <div>
-        <img src="https://webdevcode.com/wp/eastend-demo/visa/transit-visa/" alt="Loading">
-        <h5>Transit visa</h5>
-        <P>Transit Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.
-
-
-        </P>
-      </div>
     </div>
+    <div>
+      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/03/services55.jpg" alt="Loading">
+      <h5>Tourist Visa</h5>
+      <p>Tourist Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul
 
-    <div class="container-6">
-      <div class="card mb-3" style="max-width: 1200px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/why-girl.png" alt="Loading">
 
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">We Provide Experts To Create Great Value For Your Visa.</h5>
-              <div>
-                <ul>Real Time Status
-                </ul>
-                <li>By dealing with data, select tools that help you automate time-consuming processes.</li>
-              
-                <ul>Expert Help & Live Chat</ul>
-                <li>By dealing with data, select tools that help you automate time-consuming processes.</li>
-            
-                <ul>Fast Processing Guaranty</ul>
-                <li>By dealing with data, select tools that help you automate time-consuming processes</li>
+      </p>
+    </div>
+    <div>
+      <img src="https://webdevcode.com/wp/eastend-demo/visa/transit-visa/" alt="Loading">
+      <h5>Transit visa</h5>
+      <P>Transit Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.
 
-              </div>
+
+      </P>
+    </div>
+  </div>
+
+  <div class="container-6">
+    <div class="card mb-3" style="max-width: 1200px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/12/why-girl.png" alt="Loading">
+
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">We Provide Experts To Create Great Value For Your Visa.</h5>
+            <div>
+              <ul>Real Time Status
+              </ul>
+              <li>By dealing with data, select tools that help you automate time-consuming processes.</li>
+
+              <ul>Expert Help & Live Chat</ul>
+              <li>By dealing with data, select tools that help you automate time-consuming processes.</li>
+
+              <ul>Fast Processing Guaranty</ul>
+              <li>By dealing with data, select tools that help you automate time-consuming processes</li>
+
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container7">
-      <div>
-        <i class="immigration immigration-student"></i>
-        <i class="fas fa-user-graduate"></i>
-        <h6>2000+</h6>
-        <p>Happy Clients</p>
-      </div>
-      <div>
-        <i class="immigration immigration-medal"></i>
-        <h6>100%</h6>
-        <p>Satisfaction</p>
-      </div>
-      <div>
-        <i class="immigration immigration-diploma-1"></i>
-        <h6>4.5*</h6>
-        <p>Review</p>
-      </div>
-      <div>
-        <i class="immigration immigration-book-3"></i>
-        <h6>55+</h6>
-        <p>Countries</p>
-      </div>
-      <div>
-        <i class="immigration immigration-graduated-1"></i>
-        <h6>700+</h6>
-        <p>Students</p>
-      </div>
-      <div>
-        <i class="immigration immigration-academy"></i>
-        <h6>180+</h6>
-        <p>Universities</p>
-        
-      </div>
+  </div>
+  <div class="container7">
+    <div>
+      <i class="immigration immigration-student"></i>
+      <i class="fas fa-user-graduate"></i>
+      <h6>2000+</h6>
+      <p>Happy Clients</p>
+    </div>
+    <div>
+      <i class="immigration immigration-medal"></i>
+      <h6>100%</h6>
+      <p>Satisfaction</p>
+    </div>
+    <div>
+      <i class="immigration immigration-diploma-1"></i>
+      <h6>4.5*</h6>
+      <p>Review</p>
+    </div>
+    <div>
+      <i class="immigration immigration-book-3"></i>
+      <h6>55+</h6>
+      <p>Countries</p>
+    </div>
+    <div>
+      <i class="immigration immigration-graduated-1"></i>
+      <h6>700+</h6>
+      <p>Students</p>
+    </div>
+    <div>
+      <i class="immigration immigration-academy"></i>
+      <h6>180+</h6>
+      <p>Universities</p>
 
     </div>
-    <div class="container-8">
-      <div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand8888-1-300x117.png" alt="loading">
 
-      </div>
-      <div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand1-1.png" alt="loading">
-
-      </div>
-      <div>
-        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand2-1.png" alt="loading">
-      </div>
-      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand3-1.png" alt="loading">
-
-
+  </div>
+  <div class="container-8">
+    <div>
+      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand8888-1-300x117.png"
+        alt="loading">
 
     </div>
-    <div class="container-9">
+    <div>
+      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand1-1.png" alt="loading">
 
-      <h2 class="heading">Coaching For Immigration</h2>
-      <div class="card-group">
-        <div class="card">
-          
-          <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c1-1.jpg" class="card-img-top" alt="Loading">
-          <div class="card-body">
-            <h5 class="card-title">GRE Coaching</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+    </div>
+    <div>
+      <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand2-1.png" alt="loading">
+    </div>
+    <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2018/08/brand3-1.png" alt="loading">
+
+
+
+  </div>
+  <div class="container-9">
+
+    <h2 class="heading">Coaching For Immigration</h2>
+    <div class="card-group">
+      <div class="card">
+
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c1-1.jpg" class="card-img-top"
+          alt="Loading">
+        <div class="card-body">
+          <h5 class="card-title">GRE Coaching</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-        <div class="card">
-         
-          <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c2-1.jpg" class="card-img-top" alt="Loading">
-          <div class="card-body">
-            <h5 class="card-title">IELTS Coaching</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+      </div>
+      <div class="card">
+
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c2-1.jpg" class="card-img-top"
+          alt="Loading">
+        <div class="card-body">
+          <h5 class="card-title">IELTS Coaching</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
-        <div class="card">
-          
-          <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c3-1.jpg" class="card-img-top" alt="Loading">
-          <div class="card-body">
-            <h5 class="card-title">TOEFL Coaching</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+      </div>
+      <div class="card">
+
+        <img src="https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2019/07/c3-1.jpg" class="card-img-top"
+          alt="Loading">
+        <div class="card-body">
+          <h5 class="card-title">TOEFL Coaching</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
     </div>
+  </div>
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
