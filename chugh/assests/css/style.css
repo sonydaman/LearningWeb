@@ -36,6 +36,9 @@ html,body{
     color: black;
     text-decoration: none;
 }
+.Himage{
+    width: 100%;
+}
 .skill{
     width: 100%;
     background-color: #9bc5ff;
@@ -62,8 +65,10 @@ html,body{
     margin: 10px;
     border: 5px solid #8e9abd;
 }
-.Quote,p{
+.Para{
     font-size: 20px;
+    text-align: center;
+    align-self: center;
 }
 .Hcon,.Test{
     background-color: #9bc5ff;
@@ -92,15 +97,30 @@ html,body{
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     width: 100%;
     margin-top: 10px;
 }
-@media(max-width:400){
-    .body{
-        width: fit-content;
+@media(max-width:360px){
+    .body,.html{
+        width: 100%;
+    }
+    .Logo{
+        border: 2px solid #8e9abd;
+        width: 50px;
+        height: 50px;
+        position: inherit;
     }
     .main{
-        
+        display: inherit;
     }
-    
+    .Quote{
+        display: inherit;
+    }
+    .Khush{
+        width: 100%;
+    }
+    .contact{
+        display: inherit;
+    }
 }
