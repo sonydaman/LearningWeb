@@ -1,0 +1,46 @@
+    .link-1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    align-items: center;
+    list-style: none;
+
+}
+.application{
+    text-align: center;
+    background-color: cornsilk;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    }
+.list{
+    text-align: center;
+    
+/* border: 5px solid cornsilk;*/
+}
+.list-container{
+    display: flex;
+}
+.new{
+    text-align: center;
+    background-color:rgb(201, 212, 223);
+}
+
+.short{
+    text-align: center;
+}
+.list-menu{
+    background-color:rgb(233, 233, 223);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: palegoldenrod;
+}
+.container-one{
+    display:flex;
+    justify-content: space-evenly;
+}
