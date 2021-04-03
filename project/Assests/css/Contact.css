@@ -1,7 +1,29 @@
-.breadcumb-area, .breadcumb-blog-area {
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
+.container{
+    max-width: 1550px;
+    width: 100%;
 }
+.contain{
+    background-color: #f6f6f6;
+    padding: 70px 30px 60px;
+}
+}
+.form-control{
+    background-color: #ffffff;
+    padding: 8px 12px;
+    margin: 15px;
+}
+.btn{
+    color: #ffffff ;
+    background-color: #ff4400;
+    padding: 12px 20px;
+}
+.row{
+    margin: 0px 150px;
+}
+.list-item{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: left;
+    position: relative;
+    text-align: left;
 }
