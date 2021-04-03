@@ -1,0 +1,22 @@
+what is bootstrap
+open source liabray(html,css,javascript)
+why we use this liabray
+we have allready prebuilt code in this lib.
+ with the help of this lib we can create easily and fast website.
+
+ row
+    12 col
+    col
+    col
+    col-6
+    col-6
+
+
+    desktop
+        2 col
+        col-lg-6 col-lg-4
+    mobile
+        1 col
+        1 col
+        col-sm-12
+        col-sm-12
