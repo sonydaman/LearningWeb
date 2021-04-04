@@ -67,8 +67,16 @@
   margin: 10px;
   padding: 10px;
 }
-.container-4 {display: flex;
-  flex-wrap: wrap;
+.services,.choose-us{
+    padding: 50px 0;
+    background-color: #f6f6f6;
+}
+.choose-us{
+    position: relative;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 .card-service{height: 444;
   padding: 20px;
@@ -76,14 +84,24 @@
 }
 
 .image-service{
-  margin: 50px 0;
    width: 353px;
    height: 264px;
 }
 .description{
     position: relative;
     width: 323px;
-    height: 180px;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0px 5px 16px 1px rgb(0 0 0 / 10%);
+    margin: 0 15px 20px;
+    margin-top: -30px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.description:hover{
+        box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+        border-bottom: 3px solid #f40;
 }
 .container-6 {position: relative;
   top: -20px;
@@ -96,11 +114,20 @@
   margin: 20px;
   display: flex;
   color: white;
-  background-image: url("https://www.webdevcode.com/wp/eastend/wp-content/uploads/2019/12/bg-counter.png");
   width: 100%;
   text-align: center;
   justify-content: center;
   height: 100%;
+  min-height: 523px;
+  margin-top: -200px;
+  padding: 250px 0 50px;
+}
+.overlay-img{
+    background-image: url("https://www.webdevcode.com/wp/eastend/wp-content/uploads/2019/12/bg-counter.png");
+        height: 100%;
+    width: 100%;
+        background-position: top left;
+    opacity: .05;
 }
 .container-8 {
   display: flex;
@@ -218,10 +245,10 @@
 
 }
 .immigration-card{
-        border-radius: 0px;
+    border-radius: 0px;
     padding: 0;
     border: 0;
-
+    position: relative;
 }
 .immigration-card .card-title{
     padding: 20px 20px 5px;
@@ -248,4 +275,88 @@
 }
 .service-title{
   text-align: center;
+}
+.flag{
+    width: 80px;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    border: 5px solid #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    border-radius: 2px;
+}
+.flag img{
+    width: 100%;
+}
+.text-sub-heading{
+    color: var(--orange-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.text-main-heading{
+    color: var(--content-color);
+    font-size: 38px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.choose-us>.row{
+    margin: auto;
+    max-width: 1150px;
+    background: white;
+}
+.choose-us img{
+    margin-top: -50px;
+}
+.choose-us-right-side{
+        padding: 20px 30px;
+            margin: 25px 0 20px;
+}
+.f-32{
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: .2px;
+}
+.choose-us-right-side .list-group-item{
+    display: flex;
+    height: 113px;
+    justify-content: center;
+    align-items: center;
+        padding: 0;
+        margin-top: 2em;
+}
+.choose-us-right-side .list-icon{
+    flex-basis: 25%;
+        position: relative;
+    top: -25%;
+}
+.choose-us-right-side i{
+    font-size: 40px;
+    color: var(--orange-color);
+}
+.choose-us-right-side .list-heading{
+    color: var(--content-color);
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+}
+.choose-us-right-side .list-desc{
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: var(--dark-color);
+    padding: 0;
+}
+.choose-us>.row::after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+        width: 11.5%;
+    height: 86%;
+    left: 0;
+}
+.img-items{
+        padding: 0 13rem;
 }
