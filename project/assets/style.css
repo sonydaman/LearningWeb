@@ -246,3 +246,6 @@
 .immigration-card .card-btn a:hover{
         color: var(--orange-color);
 }
+.service-title{
+  text-align: center;
+}
