@@ -65,7 +65,6 @@
 }
 .card {
   margin: 10px;
-  padding: 10px;
 }
 .services,.choose-us{
     padding: 50px 0;
@@ -136,15 +135,13 @@
 }
 .container-9 {
   background-color: #f4f6f9;
-  margin: 20px;
+  border: solid;
 }
 .card-group {
   margin: 50px;
   padding: 30px;
 }
-.card {
-  margin: 10px ba;
-}
+
 .card-text {
   color: var(--dark-color);
   font-style: normal;
@@ -359,4 +356,10 @@
 }
 .img-items{
         padding: 0 13rem;
+}
+.col{
+  color: #000;
+}
+.country_img{
+  width: 22px;
 }
