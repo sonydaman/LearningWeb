@@ -5,23 +5,23 @@ When this course will be completed?
 What is the student going to achieve after the completion of the course?
 How to start with the course?
 
-The basic requirement for the course are - computer or laptop wuth internet connection
-Basic knowhow of computer sustem.
+The basic requirement for the course are - Computer or Laptop wuth Internet Connection
+Basic knowhow of Computer System.
 
-laptop ya computer,a good internet connection is required and
+Laptop or computer,a good internet connection is required and
 third is a very basic knowledge of Computer and English.
 
-To earn money or promotion in your job.
-Job can be part time /full time job.
+To earn money or promotion in your Job.
+Job can be part time /full time Job.
 
 On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 hour per day.
 
-The course will take twelve weeks.
+The Course will take Twelve Weeks.
 
 After this course you will be able to work on HTML & learn how to make a Website in HTML.
 (Responsive website,database interaction with php)
 
 There will be three days Demo classes.
-After the Demo you are expected to pay Monthly Charges
+After the Demo you are expected to pay Monthly Charges.
 
 Your enquiries are always welcomed.
