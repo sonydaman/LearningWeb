@@ -2,14 +2,23 @@ body,p{
     font-family: Roboto,Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: #565872;
+    font-display: swap;
 }
 .container{
     max-width: 1550px;
     width: 100%;
+    padding-right: 190px;
+    padding-left: 190px;
 }
 .contain{
     background-color: #f6f6f6;
     padding: 70px 30px 60px;
+    width: 100%;
+}
+.Contain-head{
+    font-family: 28px Nunito,sans-serif;
+    color: #29345c;
 }
 
 .form-control{
@@ -25,22 +34,25 @@ body,p{
     border-radius: 0%;
 }
 .row{
-    margin: 0px 150px;
+    margin: 0px -15px;
 }
-.list-item{
+.breadcumb-inner .list-item {
     text-decoration: none;
     display: inline-flex;
-    justify-content: left;
-    position: relative;
     text-align: left;
+    position: relative;
+    left: -26px;
+    
 }
 .heading h2{
     color: white;
+    margin-bottom: 30px;
+    margin-top: 0;
     position: relative;
-    left: 100px;
+    font: 32px Roboto,sans-serif;
 
 }
-.contact-heading{
+.breadcumb-area{
     background: url('./Images/breadump-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -48,10 +60,10 @@ body,p{
     background-size: cover;
     padding: 100px 0;
     background-color: #121b51;
-    position: relative;;
+    position: relative;
     color: white;
 }
-.contact-heading::before{
+.breadcumb-area::before{
     background: rgba(18,41,76,.8);
     position: absolute;
     top: 0;
@@ -61,10 +73,22 @@ body,p{
     width: 100%;
     content: "";
 }
+.breadcumb-inner ul, .breadcumb-inner li, .breadcumb-inner li a {
+    color: #fff;
+    letter-spacing: .5px;
+    text-decoration: none;
+    font: 14px Roboto,Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+.breadcumb-inner li:nth-last-child(-n+1) {
+    color: #a6adbc;
+
+}
 .contact-heading h2,
 .contact-heading .heading,
 .contact-heading a{
-    color: white;
+    color: #29345c;
+    font: 28px ;
 }
 .footer-middle{
     background-color: #12294c;
@@ -78,6 +102,14 @@ body,p{
 .wpfdp{
     flex: 0 0 25%;
     max-width: 25%;
+}
+.footer-about,.footer-about p{
+    font-size: 16px;
+    color: #a6adbc;
+}
+.footer-logo{
+    height: 50px;
+    margin-bottom: 15px;
 } 
 .footer-middle .widget h4 {
     margin-bottom: 25px;
@@ -126,7 +158,89 @@ body,p{
 .breadcumb-inner ul li{
     position: relative;
     left: 100px;
+
+}
+.contact-block,ul,li{
+    list-style: None;
+    text-align: left;
+    color: #565872;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.contact-block .fa i{
+    color: #ff4400;
+}
+.contact-block ul li i {
+    display: inline-block;
+    float: left;
+    width: 30px;
+    line-height: 1.4;
+    color: #f40;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+.menu-item i{
+    margin-right: 5px;
+    color: #a6adbc;
+
+}
+.visa-title , .country-title, .News-title{
+    color: #f8f9fe;
+    font: 20px Roboto,sans-serif;
+    margin:20px 0px 25px
+}
+.nav-menu, .nav-menu .menu-container .visa-item {
+    display: grid;
+
+}
+.visa-item a, .country-item a {
+    padding-top: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: .5s;
+    font-size: 16px;
+    color: #a6adbc;
+    padding-left: 16px;
+    text-decoration: none ;
 }
 .form-field p{
-    color: #a6adbc;;
+    color: #a6adbc;
 }
+.ems{
+    padding: 5px 15px;
+    color: #f1f1f1;
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    color: rgba(255,255,255,.7);
+    border-radius: 0;
+    border: 1px solid #eee;
+    background: #f1f1f1;
+    color: #5f6370;
+}
+.email-btn{
+    text-align: center;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    font-size: 14px;
+    background: #f40;
+    color: #fff;
+    text-transform: none;
+    margin: auto;
+    height: 150%;
+    display: inline-block;
+    margin-top: 21px;
+    border: 0;
+    right: 0;
+    top: -21px;
+    width: 60px;
+}
+.footer-bottom-menu{
+    text-align: right;
+}
+
