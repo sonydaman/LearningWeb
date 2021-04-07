@@ -18,8 +18,8 @@ On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practica
 
 The Course will take Twelve Weeks.
 
-After this course you will be able to work on HTML & learn how to make a Website in HTML.
-(Responsive website,database interaction with php)
+After this Course you will be able to work on HTML & learn how to make a Website in HTML.
+(Responsive Website,Database Interaction with php)
 
 There will be three days Demo classes.
 After the Demo you are expected to pay Monthly Charges.
