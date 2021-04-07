@@ -14,7 +14,7 @@ third is a very basic knowledge of Computer and English.
 To earn money or promotion in your Job.
 Job can be part time /full time Job.
 
-On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 hour per day.
+On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 Hour Per Day.
 
 The Course will take Twelve Weeks.
 
