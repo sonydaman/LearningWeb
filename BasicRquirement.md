@@ -14,14 +14,14 @@ third is a very basic knowledge of computer and english
 To earn money or promotion in your job.
 Job can be part time /full time job
 
-On daily basis - one Theory & One Hour Practical with revision
+On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 hour per day
 
 The course will take twelve weeks
 
-After this course you will be able to work on html & learn how to make a website in html.
+After this course you will be able to work on HTML & learn how to make a Website in HTML.
 (Responsive website,database interaction with php)
 
 There will be three days Demo classes.
-After the Demo your are expected to pay Monthly Charges
+After the Demo you are expected to pay Monthly Charges
 
 Your enquiries are always welcomed.
