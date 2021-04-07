@@ -9,14 +9,14 @@ The basic requirement for the course are - computer or laptop wuth internet conn
 Basic knowhow of computer sustem.
 
 laptop ya computer,a good internet connection is required and
-third is a very basic knowledge of computer and english
+third is a very basic knowledge of Computer and English.
 
 To earn money or promotion in your job.
-Job can be part time /full time job
+Job can be part time /full time job.
 
-On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 hour per day
+On daily basis - Recaptulation with difficulties. New Lesson - Theory & Practical with Revision. Duration 1 hour per day.
 
-The course will take twelve weeks
+The course will take twelve weeks.
 
 After this course you will be able to work on HTML & learn how to make a Website in HTML.
 (Responsive website,database interaction with php)
