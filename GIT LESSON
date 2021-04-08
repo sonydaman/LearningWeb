@@ -46,6 +46,14 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                          >Every time you commit, the master branch pointer moves forward automatically.
 
  Ans4      COMMITS:  SIMILAR TO SAVING A FILE THAT'S BEEN EDITED, 
+                        
                          > a commit records changes to one or more files in your branch. 
                          > Git assigns each commit a unique ID, called a SHA or hash, that identifies:
                          > The specific changes. When the changes were made.                  
+                        
+                              * Basically git commit puts your changes into your local repo, 
+                                while git push sends your changes to the remote location. 
+                              * Since git is a distributed version control system, 
+                                the difference is that commit will commit changes to your local repository, 
+                              * whereas push will push changes up to a remote repo. source 
+                              
