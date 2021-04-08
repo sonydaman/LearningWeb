@@ -30,7 +30,7 @@ Ans 4 The course will be completed in twelve weeks.
 
 Ans 5 After the completion of course you will be having knowledge of 'HTML'.  
  You will be apt in making web-sites in HTML.  
- (Responsive Website,Database Interaction with php)
+ (Responsive Website,Database Interaction with php).
 
 Ans 6 In order to start the course you are welcomed with a "three day's DEMO CLASS".
 After the "DEMO CLASS" you are expected to submit the charges for the course.
