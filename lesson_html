@@ -38,3 +38,11 @@ Ans 4
           <p> … </p> — A paragraph. ...
           <a> … </a> — A link. ...
           <img> — An image. The img element lets you insert images into your web pages.
+
+Q No 5  What are two types of tags?
+
+Ans 5
+
+        HTML tags can be of two types:
+             Paired Tags.  ( In Q No 4 all are paired tags - having opening and closing )
+             Singular Tags
