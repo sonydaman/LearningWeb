@@ -11,4 +11,13 @@ Q No6   How to PUSH the CODE?
 
 Now we will know about GIT. 
 
-Ans1 GIT means: 
+Ans1 GIT means: GitHub is a website for hosting projects that use GIT. 
+    *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
+     For example,
+           > when you edit a file, GIT can help you determine exactly
+           > what changed, 
+           >who changed it, 
+           >and why.
+ (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
+ the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
+  including commercial projects as well as open source.)
