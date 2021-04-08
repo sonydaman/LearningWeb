@@ -44,3 +44,8 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                          >As you start making commits, you're given a master branch 
                               that points to the last commit you made. 
                          >Every time you commit, the master branch pointer moves forward automatically.
+
+ Ans4      COMMITS:  SIMILAR TO SAVING A FILE THAT'S BEEN EDITED, 
+                         > a commit records changes to one or more files in your branch. 
+                         > Git assigns each commit a unique ID, called a SHA or hash, that identifies:
+                         > The specific changes. When the changes were made.                  
