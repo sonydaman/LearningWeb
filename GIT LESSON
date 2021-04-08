@@ -11,7 +11,7 @@ Q No6   How to PUSH the CODE?
 
 Now we will know about GIT. 
 
-Ans1 GIT means: GitHub is a website for hosting projects that use GIT. 
+Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL INTERFACE TABLE) 
     *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
      For example,
            > when you edit a file, GIT can help you determine exactly
@@ -25,8 +25,13 @@ Ans1 GIT means: GitHub is a website for hosting projects that use GIT.
          collaboratively developing source code during software development. 
          Its goals include speed, data integrity, and support for distributed, 
          non-linear workflows. Wikipedia       
- (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
- the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
-  including commercial projects as well as open source.)
+                 (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
+                 the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
+                  including commercial projects as well as open source.)
 
- Ans2  
+ Ans2    REPOSITORY: A DIRECTORY OR STORAGE SPACE WHERE YOUR PROJECT CAN LIVE. 
+         
+         Sometimes GitHub users shorten this to “repo.” 
+         It can be local to a folder on your computer, 
+         or it can be a storage space on GitHub or another online host. 
+         You can keep code files, text files, image files, you name it, inside a repository.
