@@ -56,4 +56,11 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                               * Since git is a distributed version control system, 
                                 the difference is that commit will commit changes to your local repository, 
                               * whereas push will push changes up to a remote repo. source 
-                              
+
+
+                    ( SOME IMPORTANT POINTS ) 
+                    
+                       * The GIT COMMIT  COMMAND captures a "SNAPSHOT" of the project's currently staged changes. 
+                       * Committed snapshots can be thought of as “safe” versions of a project—
+                       * Git will never change them unless you explicitly ask it to. ... 
+                       * These two commands "GIT COMMIT"and "GIT ADD" are two of the most frequently used.  
