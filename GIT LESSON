@@ -12,12 +12,12 @@ Q No6   How to PUSH the CODE?
 Now we will know about GIT. 
 
 Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL INTERFACE TABLE) 
-    *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
-     For example,
-           > when you edit a file, GIT can help you determine exactly
-           > what changed, 
-           >who changed it, 
-           >and why.
+                *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
+                 For example,
+                     > when you edit a file, GIT can help you determine exactly
+                     > what changed, 
+                     >who changed it, 
+                     >and why.
 
     ** As per Wikipedia: 
          Git is software for tracking changes in any set of files,
@@ -31,7 +31,8 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
 
  Ans2    REPOSITORY: A DIRECTORY OR STORAGE SPACE WHERE YOUR PROJECT CAN LIVE. 
          
-         Sometimes GitHub users shorten this to “repo.” 
-         It can be local to a folder on your computer, 
-         or it can be a storage space on GitHub or another online host. 
-         You can keep code files, text files, image files, you name it, inside a repository.
+                     * EXPLAINATION:
+                         Sometimes GitHub users shorten this to “repo.” 
+                         It can be local to a folder on your computer, 
+                         or it can be a storage space on GitHub or another online host. 
+                         You can keep code files, text files, image files, you name it, inside a repository.
