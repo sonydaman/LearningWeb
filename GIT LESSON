@@ -65,7 +65,7 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                        * Git will never change them unless you explicitly ask it to. ... 
                        * These two commands "GIT COMMIT"and "GIT ADD" are two of the most frequently used.
 
-Ans5        PULL   
+Ans5        PULL:   
                  PULL REQUESTS ARE THE HEART OF COLLBORATION ON GITHUB.
 
                      > When you open a pull request, you're proposing your changes 
@@ -78,3 +78,10 @@ Ans5        PULL
                      > requesting to review
                      > pull in your contribution
                      > merge the changes into their branch. 
+
+Ans6        PUSH:
+                  "PULL REQUEST"- YOU ARE REQUESTING THE TARGET REPOSITORY PLEASE GRAB YOUR CHANGES.
+                  "PUSH REQUEST" would be the "TARGET REPOSITORY REQUESTING" you to "PUSH YOUR CHANGES"
+                            > When you send a pull request, you're requesting 
+                            > the official repo owner 
+                            > to pull some changes from your own repo.                     
