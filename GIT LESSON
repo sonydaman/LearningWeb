@@ -19,15 +19,15 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                      >who changed it, 
                      >and why.
 
-    ** As per Wikipedia: 
-         Git is software for tracking changes in any set of files,
-         usually used for coordinating work among programmers 
-         collaboratively developing source code during software development. 
-         Its goals include speed, data integrity, and support for distributed, 
-         non-linear workflows. Wikipedia       
-                 (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
-                 the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
-                  including commercial projects as well as open source.)
+                     ** As per Wikipedia: 
+                     Git is software for tracking changes in any set of files,
+                     usually used for coordinating work among programmers 
+                     collaboratively developing source code during software development. 
+                     Its goals include speed, data integrity, and support for distributed, 
+                     non-linear workflows. Wikipedia       
+                         (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
+                         the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
+                         including commercial projects as well as open source.)
 
  Ans2    REPOSITORY: A DIRECTORY OR STORAGE SPACE WHERE YOUR PROJECT CAN LIVE. 
          
@@ -63,4 +63,18 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                        * The GIT COMMIT  COMMAND captures a "SNAPSHOT" of the project's currently staged changes. 
                        * Committed snapshots can be thought of as “safe” versions of a project—
                        * Git will never change them unless you explicitly ask it to. ... 
-                       * These two commands "GIT COMMIT"and "GIT ADD" are two of the most frequently used.  
+                       * These two commands "GIT COMMIT"and "GIT ADD" are two of the most frequently used.
+
+Ans5        PULL   
+                 PULL REQUESTS ARE THE HEART OF COLLBORATION ON GITHUB.
+
+                     > When you open a pull request, you're proposing your changes 
+                     > and requesting that someone review 
+                     > and pull in your contribution 
+                     > and merge them into their branch. 
+                 
+                 PULL REQUESTS SHOW DIFFERENCES OF THE CONTENT FROM BOTH BRANCHES.
+                     > proposing your changes 
+                     > requesting to review
+                     > pull in your contribution
+                     > merge the changes into their branch. 
