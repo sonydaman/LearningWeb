@@ -36,3 +36,10 @@ Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL IN
                          It can be local to a folder on your computer, 
                          or it can be a storage space on GitHub or another online host. 
                          You can keep code files, text files, image files, you name it, inside a repository.
+
+ Ans3     BRANCHES:
+                 A BRANCH IN GIT IS SIMPLY A LIGHTWEIGHT MOVEABLE POINTER TO ONE OFTHESE COMMITS. 
+                         >The DEFAULT BRANCH name in Git is MASTER . 
+                         >As you start making commits, you're given a master branch 
+                              that points to the last commit you made. 
+                         >Every time you commit, the master branch pointer moves forward automatically.
