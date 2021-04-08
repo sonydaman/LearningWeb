@@ -1,0 +1,27 @@
+LESSON  IN  HTML
+
+Q No 1 WHAT IS HTML?
+
+Ans 1
+     * HTML stands for Hyper Text Markup Language. 
+     * HTML is the standard markup language for creating "WEB PAGES". 
+     * HTML describes the "STRUCTGURE" of a Web page. 
+     * HTML consists of a series of "ELEMENTS".
+     * HTML ELEMENTS TELL THE BROWSER "HOW TO DISPLAY THE CONTENTS".
+
+Q No 2 What is HTML used for?
+
+Ans 2
+       * HTML is the code that is used to structure a web page and its content. 
+       * For example, content could be structured within a set of paragraphs, 
+           a list of bulleted points, 
+           or using images 
+           and data tables.        
+
+Q No 3 What is the difference between HTML & HYML5?
+
+Ans 3 
+      HTML is the primary language for developing web pages. 
+      HTML does not have support for video and audio.
+      HTML5 is a new version of HTML with new functionalities with markup language with Internet technologies.
+      HTML5 supports both video and audio.            
