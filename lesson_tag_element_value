@@ -1,0 +1,31 @@
+In this lesson we learn about tag, element, value in HTML.
+
+HTML TAGS: 
+             > TAGS are the starting and ending parts of an HTML element. 
+             > They begin with '<' symbol and end with '>' symbol. 
+             > Whatever written inside < and > are called tags.
+             > HTML tags are used to hold the HTML element.
+             > HTML tags are almost like keywords where every single tag has unique meaning.	
+
+             For example: <b>This is the content.</b>
+
+             > The output of the above line will be - 'This is the content' in bold letters.
+             > The <b> is starting tag to get the bold output.
+             > The </b> is closing tag to end the command.
+
+HTML elements: 
+             
+             >  Elements enclose the contents in between the tags. 
+             >  They consist of some kind of structure or expression. 
+             >  It generally consists of a start tag, content and an end tag.
+             >  HTML element holds the content.
+             >  Whatever written within a HTML tag are HTML elements.
+             >  HTML elements specifies the general content.
+
+
+                	
+
+             	
+
+
+
