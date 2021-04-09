@@ -57,4 +57,9 @@ Line No 8
 
               Position of the word between title tags ( Docunment).
 
+ Line No 15   What is the use of <body></body>?
+
+                >The stuff between <body> and </body> is the main content of the document
+                 that will appear in the browser window.              
+
 
