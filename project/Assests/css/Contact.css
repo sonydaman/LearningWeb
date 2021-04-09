@@ -183,7 +183,6 @@ body,p{
 }
 .contact-block ul li i {
     display: inline-block;
-    float: left;
     width: 30px;
     line-height: 1.4;
     color: #f40;
