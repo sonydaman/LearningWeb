@@ -47,5 +47,10 @@ Line No 8
 
              The part of the line 'content="IE=edge' shows that code will be applicable to IE9
                as we know that 'internet explorer' is not used now 
-               only 'IE9' is the latest version.  So, the code will suport 'IE9'.    
+               only 'IE9' is the latest version.  So, the code will suport 'IE9'.   
+
+ Line No 12   What is the function of '<title>Document</title>'?
+
+              Position of the word between title tags ( Docunment).
+
 
