@@ -26,6 +26,10 @@ Line No 7
            Due to inclusions in the working of audio and video there was no provision in html4
            Similarly, there were many other features were added in the working of internet.
 
+           NOTE: 
+                     > The first line on the top, <!DOCTYPE html>, is a document type declaration 
+                       and it lets the browser know which flavor of HTML you’re using (HTML5, in this case).
+
            SO, HTML5 A DEVELOPED VERSION OF HTML TO INCLUDE ALL NEW FEATURES OF INTERNET. 
 
 Line No 8
