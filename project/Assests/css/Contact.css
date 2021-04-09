@@ -5,26 +5,41 @@ body,p{
     color: #565872;
     font-display: swap;
 }
-.container{
+.breadcumb-area .container{
     max-width: 1550px;
     width: 100%;
     padding-right: 190px;
     padding-left: 190px;
 }
-.contain{
+.form{
+    margin: 0px;
+    background-color: #f6f6f6;
+}
+.form .container{
     background-color: #f6f6f6;
     padding: 70px 30px 60px;
     width: 100%;
+
 }
-.Contain-head{
+.Contain-head,.contact-heading{
     font-family: 28px Nunito,sans-serif;
     color: #29345c;
+    margin-bottom: 20px;
 }
-
+.para{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #565872;
+    margin: 15px 0px;
+}
+.paragraph{
+    margin-bottom: 50px;
+}
 .form-control{
     background-color: #ffffff;
     padding: 8px 12px;
-    margin: 15px 0px;
+    margin-bottom: 20px;
     border-radius: 0px;
 }
 .btn{
@@ -32,16 +47,14 @@ body,p{
     background-color: #ff4400;
     padding: 12px 20px;
     border-radius: 0%;
-}
-.row{
-    margin: 0px -15px;
+
 }
 .breadcumb-inner .list-item {
     text-decoration: none;
     display: inline-flex;
-    text-align: left;
+    justify-content: flex-start;
     position: relative;
-    left: -26px;
+    left: 0px;
     
 }
 .heading h2{
@@ -84,11 +97,8 @@ body,p{
     color: #a6adbc;
 
 }
-.contact-heading h2,
-.contact-heading .heading,
-.contact-heading a{
-    color: #29345c;
-    font: 28px ;
+.form-container{
+    display: flex;
 }
 .footer-middle{
     background-color: #12294c;
@@ -166,6 +176,7 @@ body,p{
     color: #565872;
     font-size: 17px;
     margin-bottom: 15px;
+    padding-left: 0px;
 }
 .contact-block .fa i{
     color: #ff4400;
@@ -176,6 +187,11 @@ body,p{
     width: 30px;
     line-height: 1.4;
     color: #f40;
+}
+.contact-block ul li {
+    color: #565872;
+    font-size: 17px;
+    margin-bottom: 15px;
 }
 .menu{
     display: flex;
@@ -190,10 +206,18 @@ body,p{
 .visa-title , .country-title, .News-title{
     color: #f8f9fe;
     font: 20px Roboto,sans-serif;
-    margin:20px 0px 25px
+    margin:20px 0px 25px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: .2px;
 }
-.nav-menu, .nav-menu .menu-container .visa-item {
-    display: grid;
+.visa-title,.country-title{
+    padding-left: 1.5rem;
+}
+.nav-menu, .nav-menu .menu-container .visa-item,.country-item {
+    list-style-type: none;
+    margin: 0px 0px 10px;
+    width: 300px;
 
 }
 .visa-item a, .country-item a {
@@ -231,10 +255,9 @@ body,p{
     background: #f40;
     color: #fff;
     text-transform: none;
-    margin: auto;
-    height: 150%;
+    margin: 0px;
+    height: 50px;
     display: inline-block;
-    margin-top: 21px;
     border: 0;
     right: 0;
     top: -21px;
