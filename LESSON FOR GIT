@@ -1,4 +1,4 @@
-WHAT IS GIT ?               ---DONE
+    WHAT IS GIT ?               ---DONE
 WHAT IS REPOSITRY ?         ---DONE
 WHAT ARE BRANCHES ?         ---DONE
 HOW TO COMMIT THE CODE ?    ---DONE
@@ -10,6 +10,20 @@ HOW TO PUSH THE CODE ?      ---DONE
 
 
 
+<<<<<<< HEAD
+WHAT IS GIT ?               --Ok   
+WHAT IS REPOSITRY ?         --ok  
+WHAT ARE BRANCHES ?         --ok
+HOW TO COMMIT THE CODE ?    --OK
+HOW TO PULL CODE ?          --OK    
+HOW TO PUSH THE CODE ?      --OK
+
+
+common folder jo ki web(internet)
+    any body can access that specific code
+    text,videos,audio,images
+code
+=======
 WHAT IS GIT ?               --   OK
 WHAT IS REPOSITRY ?         --   OK
 WHAT ARE BRANCHES ?         --   OK
@@ -22,6 +36,7 @@ Common Folder of (jo ki) Web(Internet)
     Any body can access that Specific Code
     Text,videos,audio,images
 Private code
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
     facebook,google
 Open source (Free licenc version)
 paid(GIT)
@@ -36,9 +51,15 @@ NEW FOLDER (PROJECT) -- REPOSITORY
     (URL,LINK)
     copy,download,clone
 
+<<<<<<< HEAD
+BRANCHES     (ADVANCE FOLDER)
+    13-MARCH gallery            backup
+    14-MARCH completed          backup
+=======
 BRANCHES (ADVANCE FOLDER)
     13-MARCH Gallery            backup
     14-MARCH Completed          backup
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
     15-MARCH working (ABOUT US) backup
     16-MARCH Completed about us backup
 

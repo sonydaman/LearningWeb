@@ -1,5 +1,5 @@
 .heading{
-    text-align: centre;
+    text-align: center;
     color: brown; font-size: xx-large;
     font-style: italic;
     justify-content: center;
@@ -7,48 +7,31 @@
 .subheading{
     text-align: center;
     color: tomato; font-size: x-large;
-    font-style: italic;}
+    font-style: italic;
+}
 .buttons{
-    border: 10px 0 salmon;
-    padding: 20px 0;
+    text-align: end;
 }
-.items1{
-    border:inset;
+.paragraph1{
+    font-size: medium; font-style: italic;
+justify-content: flex-start;
 }
-.items1 img{
-    padding: 10px 10px;
-    
-}
-.items1 p{ 
-    padding: 0px 20px;
-    justify-content: center;
-    font-size: medium;
-    font-style: italic; 
-    text-align: justify;
-}
-.items2{
-    border: inset;
-}
-.items2 img{padding: 10px 10px;
-flex-direction: row-re;
-}
-
-.items2 p{
-    padding: 0px 20px;
-    justify-content:flex-end;
-    font-size: medium;
-    font-style: italic;
-}
-.items3{
-    border: inset;
-}
-.items3 img{
-    padding: 10px 10px;
-}
-.items3 p{
-    padding: 0 20px;
-    justify-content: center;
-    text-align:justify;
-    font-size: medium;
-    font-style: italic;
-}
+    .paragraph2{
+        font-size: medium; font-style: italic;
+        text-align: end;
+        
+    }
+.paragraph3{
+    font-size: medium; font-style: italic;
+    text-align: center;
+    }
+    .image{
+        align-items: flex-start
+    };
+    }
+    .image2{
+        align-content: center;
+    }
+    .image3{
+        align-items: flex-start;
+    }

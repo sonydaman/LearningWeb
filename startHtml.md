@@ -21,3 +21,4 @@ tag,element
 open   close
 <head>
     where we can include our basic files
+intial code for making website html and css

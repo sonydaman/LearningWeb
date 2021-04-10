@@ -1,0 +1,43 @@
+.list-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(224, 216, 216);
+    border: .5rem;
+
+}
+.book{
+    text-align: center;
+    background-color: burlywood;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.menu{
+border: 5px solid lightslategray;
+text-align: center;
+}
+.assign{
+    text-align: center;
+    background-color: lightslategray;
+}
+.invention{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.show{
+    background-color: lightyellow;
+    text-align: center;
+}
+.test{
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightslategrey;
+}
