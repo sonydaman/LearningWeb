@@ -1,0 +1,87 @@
+In this lesson you will understand basic knowledge of use of GIT.
+
+Some basic knowledge you should know about GIT & operations in GIT.
+
+Q No1   What is GIT?
+Q No2   What is REPOSITORY?
+Q No3   What are BRANCHES?
+Q No4   How to COMMIT the CODE?
+Q No5   How to PULL the CODE?
+Q No6   How to PUSH the CODE?
+
+Now we will know about GIT. 
+
+Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL INTERFACE TABLE) 
+                *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
+                 For example,
+                     > when you edit a file, GIT can help you determine exactly
+                     > what changed, 
+                     >who changed it, 
+                     >and why.
+
+                     ** As per Wikipedia: 
+                     Git is software for tracking changes in any set of files,
+                     usually used for coordinating work among programmers 
+                     collaboratively developing source code during software development. 
+                     Its goals include speed, data integrity, and support for distributed, 
+                     non-linear workflows. Wikipedia       
+                         (Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
+                         the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control,
+                         including commercial projects as well as open source.)
+
+ Ans2    REPOSITORY: A DIRECTORY OR STORAGE SPACE WHERE YOUR PROJECT CAN LIVE. 
+         
+                     * EXPLAINATION:
+                         Sometimes GitHub users shorten this to “repo.” 
+                         It can be local to a folder on your computer, 
+                         or it can be a storage space on GitHub or another online host. 
+                         You can keep code files, text files, image files, you name it, inside a repository.
+
+ Ans3     BRANCHES:
+                 A BRANCH IN GIT IS SIMPLY A LIGHTWEIGHT MOVEABLE POINTER TO ONE OF THESE COMMITS. 
+                         
+                         >The DEFAULT BRANCH name in Git is MASTER . 
+                         >As you start making commits, you're given a master branch 
+                              that points to the last commit you made. 
+                         >Every time you commit, the master branch pointer moves forward automatically.
+
+ Ans4      COMMITS:  SIMILAR TO SAVING A FILE THAT'S BEEN EDITED, 
+                        
+                         > a commit records changes to one or more files in your branch. 
+                         > Git assigns each commit a unique ID, called a SHA or hash, that identifies:
+                         > The specific changes. When the changes were made.                  
+                        
+                              * Basically git commit puts your changes into your local repo, 
+                                while git push sends your changes to the remote location. 
+                              * Since git is a distributed version control system, 
+                                the difference is that commit will commit changes to your local repository, 
+                              * whereas push will push changes up to a remote repo. source 
+
+
+                    ( SOME IMPORTANT POINTS ) 
+                    
+                       * The GIT COMMIT  COMMAND captures a "SNAPSHOT" of the project's currently staged changes. 
+                       * Committed snapshots can be thought of as “safe” versions of a project—
+                       * Git will never change them unless you explicitly ask it to. ... 
+                       * These two commands "GIT COMMIT"and "GIT ADD" are two of the most frequently used.
+
+Ans5        PULL:   
+                 PULL REQUESTS ARE THE HEART OF COLLBORATION ON GITHUB.
+
+                     > When you open a pull request, you're proposing your changes 
+                     > and requesting that someone review 
+                     > and pull in your contribution 
+                     > and merge them into their branch. 
+                 
+                 PULL REQUESTS SHOW DIFFERENCES OF THE CONTENT FROM BOTH BRANCHES.
+                     > proposing your changes 
+                     > requesting to review
+                     > pull in your contribution
+                     > merge the changes into their branch. 
+
+Ans6        PUSH:
+                  "PULL REQUEST"- YOU ARE REQUESTING THE TARGET REPOSITORY PLEASE GRAB YOUR CHANGES.
+                  "PUSH REQUEST" would be the "TARGET REPOSITORY REQUESTING" you to "PUSH YOUR CHANGES"
+                            > When you send a pull request, you're requesting 
+                            > the official repo owner 
+                            > to pull some changes from your own repo.                     

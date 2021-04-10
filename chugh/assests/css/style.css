@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 html,
 body{
     width: 100%;
     height:100%;
+=======
+html,body{
+    max-width: 100%;
+    margin: 0px;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
 .Menu{
     background-color: #9bc5ff;
     margin: 20px 0px;
     border: 2px solid black;
+<<<<<<< HEAD
+=======
+    max-width: 100%;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
 .Logo{
     border: 2px solid #8e9abd;
@@ -20,11 +30,15 @@ body{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    display: flex;
+    display: inline-flex;
     justify-content:space-evenly;
     height: 100px;
     align-items: center;
     font-size: 20px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
 .list-item{
     display: inline-flex;
@@ -36,13 +50,23 @@ body{
     text-decoration: none;
 }
 .Himage{
+<<<<<<< HEAD
     width: 1500px;
+=======
+    width: 100%;
+}
+.skill{
+    width: 100%;
+    background-color: #9bc5ff;
+    text-align: center;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
 .main{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
 .Design{
     border: 5px solid grey;
     background-color: #9bc5ff;
@@ -71,19 +95,56 @@ body{
     background-color:#9bc5ff;
     margin: 10px;
 
+=======
+.Design,.Computer,.Content{
+    border: 5px solid grey;
+    background-color: #9bc5ff;
+    margin: 10px;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
-.Coimg{
+.Dimage,.Cimage,.Coimg{
     height: 150px;
     width: 150px;
+<<<<<<< HEAD
     transform: translateX(120%);
+=======
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 }
 .Quote{
     background-color:#9bc5ff;
     display: flex;
     justify-content: space-evenly;
+<<<<<<< HEAD
     width: 98%;
     margin: 10px;
     border: 5px solid #8e9abd;
+=======
+    max-width: 100%;
+    margin: 10px;
+    border: 5px solid #8e9abd;
+}
+.Para{
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+}
+.Hcon,.Test{
+    background-color: #9bc5ff;
+    border: 5px solid #8e9abd;
+    max-width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.address,
+.Email,.mobile{
+    background-color: #9bc5ff;
+    border: 5px solid #8e9abd;
+    margin: 10px;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
 
 }
 .Khush{
@@ -95,7 +156,33 @@ body{
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
+<<<<<<< HEAD
+=======
+    text-align: center;
+>>>>>>> da39308966a9ac75034b33d1c22896dd586b7e00
     width: 100%;
     margin-top: 10px;
-
+}
+@media(max-width:360px){
+    .body,.html{
+        width: 100%;
+    }
+    .Logo{
+        border: 2px solid #8e9abd;
+        width: 50px;
+        height: 50px;
+        position: inherit;
+    }
+    .main{
+        display: inherit;
+    }
+    .Quote{
+        display: inherit;
+    }
+    .Khush{
+        width: 100%;
+    }
+    .contact{
+        display: inherit;
+    }
 }

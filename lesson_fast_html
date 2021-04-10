@@ -1,0 +1,146 @@
+Fast lesson in HTML:
+
+
+Directly start lesson thinking that the student have the basic know-how of HTML
+
+
+<!DOCTYPE html>        
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+Line No 7 
+           Why do we write <! DOC html>?
+           
+           
+           The line shows that the document is written html5.
+           HTML5 is an advanced version of html.
+           In html4 there were some slow tags which waste time in loadin and operation
+           For example <table> tag was a set of tags [table, tr, td].
+           Due to inclusions in the working of audio and video there was no provision in html4
+           Similarly, there were many other features were added in the working of internet.
+
+           NOTE: 
+                     > The first line on the top, <!DOCTYPE html>, is a document type declaration 
+                       and it lets the browser know which flavor of HTML you’re using (HTML5, in this case).
+
+           SO, HTML5 A DEVELOPED VERSION OF HTML TO INCLUDE ALL NEW FEATURES OF INTERNET. 
+
+Line No 8
+           What does the line inform:   <html lang="en">?
+
+           The line shows that 'ENGLISH' Language is the language of the following ducment.
+
+ Line No 10
+            What does the line indicate <meta charset="UTF-8" />?
+
+            The line shows that the all characters of the language will be followed.  
+
+ Line No 11  What does the line "<meta http-equiv="X-UA-Compatible" " />"
+             indicate?
+
+             The part  of the line shows that 'http-equiv="X-UA-Compatible'
+                the code of the document will be Compatible with all kind of output devices-
+                computers, laptops, tablets, mobiles or watch mobiles. 
+
+             The part of the line 'content="IE=edge' shows that code will be applicable to IE9
+               as we know that 'internet explorer' is not used now 
+               only 'IE9' is the latest version.  So, the code will suport 'IE9'.   
+
+ Line No 12   What is the function of '<title>Document</title>'?
+
+              Position of the word between title tags ( Docunment).
+
+ Line No 15   What is the use of <body></body>?
+
+                >The stuff between <body> and </body> is the main content of the document
+                 that will appear in the browser window.              
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
