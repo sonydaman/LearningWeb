@@ -21,7 +21,6 @@
 }
 
 .container-2{
-  height: 817px;
   width: 1519px;
   padding: 90px 0 80px;
   background-color: #f6f6f6;
@@ -355,13 +354,147 @@
 .img-items{
         padding: 0 13rem;
 }
-.col{
-  color: #000;
-}
 .country-flag img{
   width: 50px;
 }
 .country-card{
   background-color: #fff;
   border-bottom: 3px solid tomato;
+  margin-bottom: 50px;
 }
+.container-box span i{
+  color: #fff;
+  size: 24px;
+  width: 46px;
+}
+.icon-text,.icon-title{
+  color: #fff;
+}
+.country_img ul li{
+  list-style: none;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.footer-middle{
+  background-color: #12294c;
+  padding: 80px 0 40px;
+  position: relative;
+}
+.footer-about,.footer-about p{
+  font-size: 16px;
+  color: #a6adbc;
+}
+.footer-logo{
+  height: 50px;
+  margin-bottom: 15px;
+} 
+.footer-middle .widget h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  position: relative;
+  color: #f8f9fe;
+  display: inline-block;
+}
+.footer-middle .widget ul li {
+  margin-bottom: 10px;
+  position: relative;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  font-size: 16px;
+  color: #a6adbc;
+  padding-left: 16px;
+}
+.footer-bottom{
+  background-color: #12294c;
+}
+.footer-bottom-box .row {
+  padding: 20px 0 20px;
+  border-top: 1px solid rgba(255,255,255,.23);
+  margin: 0px;
+}
+.about-footer, .about-footer p {
+  font-size: 16px;
+  color: #a6adbc;
+}
+.wpfdp{
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.copy-right-text p {
+  color: #a6adbc;
+  margin: 10px 0 0;
+  padding: 0;
+  margin-top: 0;
+  font-size: 14px;
+}
+.copyright-social{
+  text-align: right;
+}
+.copyright-social ul li {
+  font-size: 16px;
+  display: inline;
+}
+.copyright-social ul li a {
+  color: #a6adbc;
+  font-size: 14px;
+}
+.visa-title , .country-title, .News-title{
+  color: #f8f9fe;
+  font: 20px Roboto,sans-serif;
+  margin:20px 0px 25px;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: .2px;
+}
+.visa-title,.country-title{
+  padding-left: 1.5rem;
+}
+.nav-menu, .nav-menu .menu-container .visa-item,.country-item {
+  list-style-type: none;
+  margin: 0px 0px 10px;
+  width: 300px;
+
+}
+.visa-item a, .country-item a {
+  padding-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+  transition: .5s;
+  font-size: 16px;
+  color: #a6adbc;
+  padding-left: 16px;
+  text-decoration: none ;
+}
+.email-btn{
+  text-align: center;
+  -webkit-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+  font-size: 14px;
+  background: #f40;
+  color: #fff;
+  text-transform: none;
+  margin: 0px;
+  height: 50px;
+  display: inline-block;
+  border: 0;
+  right: 0;
+  top: -21px;
+  width: 60px;
+}
+.footer-bottom-menu{
+  text-align: right;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+.menu-item i{
+  margin-right: 5px;
+  color: #a6adbc;
+
+}
+.form-field p{
+  color: #a6adbc;
