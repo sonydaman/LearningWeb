@@ -110,16 +110,14 @@
   width: 100%;
 }
 .container7 {
-  margin: 20px;
-  display: flex;
-  color: white;
+  color: #0d2958;
   width: 100%;
   text-align: center;
   justify-content: center;
   height: 100%;
-  min-height: 523px;
-  margin-top: -200px;
-  padding: 250px 0 50px;
+  padding: 150px 0 150px;
+  background-image: url(https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/01/row-bg-six.jpg);
+  background-position: top center;
 }
 .overlay-img{
     background-image: url("https://www.webdevcode.com/wp/eastend/wp-content/uploads/2019/12/bg-counter.png");
@@ -360,6 +358,10 @@
 .col{
   color: #000;
 }
-.country_img{
-  width: 22px;
+.country-flag img{
+  width: 50px;
+}
+.country-card{
+  background-color: #fff;
+  border-bottom: 3px solid tomato;
 }
