@@ -1,4 +1,4 @@
-WHAT IS GIT ?               ---DONE
+    WHAT IS GIT ?               ---DONE
 WHAT IS REPOSITRY ?         ---DONE
 WHAT ARE BRANCHES ?         ---DONE
 HOW TO COMMIT THE CODE ?    ---DONE
@@ -14,7 +14,7 @@ WHAT IS GIT ?               --Ok
 WHAT IS REPOSITRY ?         --ok  
 WHAT ARE BRANCHES ?         --ok
 HOW TO COMMIT THE CODE ?    --OK
-HOW TO PULL CODE ?          --OK
+HOW TO PULL CODE ?          --OK    
 HOW TO PUSH THE CODE ?      --OK
 
 
@@ -36,7 +36,7 @@ NEW FOLDER (PROJECT) -- REPOSITORY
     (URL,LINK)
     copy,download,clone
 
-BRANCHES (ADVANCE FOLDER)
+BRANCHES     (ADVANCE FOLDER)
     13-MARCH gallery            backup
     14-MARCH completed          backup
     15-MARCH working (ABOUT US) backup
