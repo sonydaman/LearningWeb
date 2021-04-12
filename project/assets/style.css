@@ -114,12 +114,13 @@
   justify-content: center;
   height: 100%;
   padding: 150px 0 150px;
-  background-image: url(https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/01/row-bg-six.jpg);
-  background-position: top center;
-  opacity: 0.5;
+  background-color: #12294c;
+  opacity: 0.8;
+ 
 }
 .background-overlay{
-  background-color: #12294c;
+  background-image: url(https://webdevcode.com/wp/eastend-demo/wp-content/uploads/2020/01/row-bg-six.jpg);
+  background-position: top center;
 }
 .overlay-img{
     background-image: url("https://www.webdevcode.com/wp/eastend/wp-content/uploads/2019/12/bg-counter.png");
@@ -364,6 +365,7 @@
   background-color: #fff;
   border-bottom: 3px solid tomato;
   margin-bottom: 50px;
+  padding: 20px;
 }
 .container-box{
   padding: 0px 160px;
