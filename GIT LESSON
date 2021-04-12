@@ -9,17 +9,29 @@ Q No4   How to COMMIT the CODE?
 Q No5   How to PULL the CODE?
 Q No6   How to PUSH the CODE?
 
-Now we will know about GIT. 
+Now we will know about GIT (GLOBAL INTERFACE TABLE). 
 
-Ans1 GIT means: GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT.(GLOBAL INTERFACE TABLE) 
-                *GIT is a type of VERSION CONTROL SYSTEM (VCS) that makes it easier to track changes to files. 
+Ans1 GIT means:
+                 *GIT is a type of "VERSION CONTROL SYSTEM (VCS)".
+                 *Git is a mature, "ACTIVELY MAINTAINED OPEN SOURCE PROJECT".
+                 *GIT makes it easier to "TRACK CHANGES TO FILES".                     GITHUB IS A WEBSITE FOR HOSTING PROJECTS THAT USE GIT. 
+                 *GIT is software for "TRACKING CHANGES IN ANY SET OF FILES".
+                 *GIT used for "COORDINATING WORK AMONG AMONG PROGRAMMERS". 
+                 *GIT is used for "DEVELOPING SOURCE CODE DURING SOFTWARE DEVELOPMENT". 
+                       
+
+                         "VERSION CONTROL SYSTEM (VCS)
+                                           VCS are software tools 
+                                           VCS help software teams to  manage changes to source code over time.
+                                           VCS  keeps track of every modification to the code in a special kind of database. 
+                
                  For example,
-                     > when you edit a file, GIT can help you determine exactly
+                     > when you edit a file, [GIT CAN HELP TO DETERMINE EXACTLY]
                      > what changed, 
-                     >who changed it, 
-                     >and why.
+                     > who changed it, 
+                     > and why.
 
-                     ** As per Wikipedia: 
+                     *** As per Wikipedia: 
                      Git is software for tracking changes in any set of files,
                      usually used for coordinating work among programmers 
                      collaboratively developing source code during software development. 
