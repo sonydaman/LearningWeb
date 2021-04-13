@@ -1,0 +1,56 @@
+.navbar{
+    margin:  0 99.6px;
+    background: #7952B3;
+    padding: 12px;
+}
+
+
+
+
+
+.main{margin:  0 99.6px;
+    padding:48px ;
+}
+.col-lg-6{
+    padding: 15px;
+}
+.masterhead{
+    margin: 0px 99.6px;
+    padding: 16px;
+}
+.install,.icon,.theme,.jsdelivr{
+    padding: 12px;
+    display: flex;
+    padding: 24px;
+    margin: 0px 12px 48px;
+}
+.heading{
+    font-size: xx-large;
+    font-style: italic;
+    margin:0 0  8px;
+    text-align: left;
+}
+.subheading{
+    margin:0 0 16px;
+    font-style: italic;
+    font-size: medium;
+    text-align: left;
+}
+.content{
+    margin:0 0 16px;
+    font-style: italic;
+    text-align: left;
+}
+.box{
+    margin: 0 0 16px;
+    padding: 16px 24px;
+    display: flex;
+    background-color: #f9f8fA;
+}
+{
+    position: absolute;
+    top: 65rem;
+    display: block;
+    font-size: 65rem;
+    background-color: #ffff;
+}
