@@ -13,13 +13,31 @@
     text-decoration: none;
     font-size: 1rem;
 }
-
-.mains{margin:  0 99.6px;
-    padding:48px ;
+.navbar-navicon{
+    margin: 0 600px;
+    list-style: none;
+    display: flex;
 }
-.col-lg-6{
+.nav-link {
+    color: white;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+}
+
+.mains{margin: 0 99.6px;
+    padding:48px 0 ;
+}
+.head{font-size: 4rem;
+}
+.paragraph{
+    font-size: 2rem;
+}
+.col-lg-7 .col-lg-5{
     padding: 15px;
 }
+
 .masterhead{
     margin: 0px 99.6px;
     padding: 16px;
@@ -31,7 +49,7 @@
     margin: 0px 12px 48px;
 }
 .heading{
-    font-size: xx-large;
+    font-size: 4rem;
     font-style: italic;
     margin:0 0  8px;
     text-align: left;
@@ -39,13 +57,14 @@
 .subheading{
     margin:0 0 16px;
     font-style: italic;
-    font-size: medium;
+    font-size: 1.5rem;
     text-align: left;
 }
 .content{
     margin:0 0 16px;
     font-style: italic;
     text-align: left;
+    font-size: 1.5rem;
 }
 .box{
     margin: 0 0 16px;
