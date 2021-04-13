@@ -47,10 +47,3 @@
     display: flex;
     background-color: #f9f8fA;
 }
-{
-    position: absolute;
-    top: 65rem;
-    display: block;
-    font-size: 65rem;
-    background-color: #ffff;
-}
