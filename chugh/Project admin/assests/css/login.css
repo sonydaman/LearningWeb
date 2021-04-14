@@ -2,7 +2,7 @@ html,body{
     background-color: #d2d6de;
 }
 .login-box{
-    width: 90%;
+    width: 360px ;
     margin: 7% auto;
 }
 .login-logo{
@@ -25,3 +25,70 @@ html,body{
     padding: 0px 20px 20px 20px;
     text-align: center;
 }
+.email-input,.Password-input{
+    margin-bottom: 14px;
+}
+.Social-authority-link{
+    margin: 10px 0px;
+}
+.or{
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+}
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+    text-align: left;
+}
+.btn-Google{
+    color: #fff;
+    background-color: #dd4b39;
+    border-color: rgba(0,0,0,0.2);
+    text-align: left;
+    margin-top: 5px;
+}
+.btn .btn-flat{
+    border-radius: 0;
+    box-shadow: none;
+    border-width: 1px;
+}
+.page{
+    text-decoration: none;
+    color: #337ab7;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.btn-primary{
+    display: block;
+    border-color: #337ab7;
+    background-color: #3c8dbc;
+    border-radius: 0px;
+
+}
+.input-container {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    display: flex;
+    margin-bottom: 14px;
+}
+.input-field{
+    border: 0px solid white;
+    width: 95%;
+}
+.input-field i{
+    padding: 10px;
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+
