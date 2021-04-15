@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="Stylesheet" href="../Project admin/assests/css/index.css">
+        <title>Profile</title>
+    </head>
+    <body>
+        <!--main header start-->
+        <div class="main-header">
+            <!--logo-->
+        <a href="#" class="logo">
+            <span class="sq-logo"><b>M</b>AD</span>
+            <span class="logo-lg"><b>MADDEY</b></span>
+        </a>
+        <nav class="navbar navbar-static-top">
+            <a href="#" class="side-toggle" data-toggle="push-menu" role="button"></a>
+            <div class="navbar-menu">
+                <ul class="nav navbar-nav">
+                    <li class="nav-icons"><i class="fa fa-envelope"></i></li>
+                    <li class="nav-icons"><i class="fa fa-bell"></i></li>
+                    <li class="nav-icons"><i class="fa fa-flag"></i></li>
+                    <li class="nav-icons"><i class="profile">
+                        <a>
+                            <img src="./assests/image/icon.png" class="user-image">
+                            <span>Khushal</span>
+                        </a>
+                    </i></li>
+                    <li class="nav-icons"> <i class="fa fa-gears"></i> </li>
+
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <!--main header End-->
+        <div class="content">
+            <div class="content-header d-flex">
+                <h1>User Profile</h1>
+                <nav aria-label="breadcrumb-area">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                          <a href="#"><i class="fa fa-dashboard"> Home</i></a></li>
+                      <li class="breadcrumb-item"><a href="#"> Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+                    </ol>
+                  </nav>
+            </div>
+            <div class="row">
+                <div class="col-3 py-15">
+            <!--Profile Card Start-->
+            <div class="card">
+                <img src="./assests/image/icon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Khushal Chugh</h5>
+                <p class="card-text">Designer</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">Followers</li>
+                <li class="list-group-item">Following</li>
+                <li class="list-group-item">Friends</li>
+                </ul>
+                <div class="card-body">
+                <button class="Follow-btn">Follow</button>
+                </div>
+            </div>
+            <!--Profile card End-->
+            <!--About card Start-->
+            <div class="card">
+                <div class="card-header">
+                About Me
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <i class="fa fa-book">Education</i>
+                    <p>B.tech in Mechanical from Shaheed Udham Singh College,Tangori</p>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-location-arrow">Location</i>
+                    <p>Patiala,Punjab</p>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-pencil">Skills</i>
+                    <p>Photography, Video Editing, Computer hardwaring and Softwaring.</p>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-sticky-note">Notes</i>
+                    <p>....................................</p>
+                </li>
+                </ul>
+            </div>
+            <!--About card End-->
+            </div>
+            <div class="col-9 py-15 ">
+            <!--Nav tab start-->
+            <ul class="nav nav-tabs bg-white" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Activity</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Setting</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <!--activity start-->
+            <div class="container bg-white">
+                    <header class="act-header">
+                        <img src="./assests/image/icon.png" class="act-img">
+                        <p>Khushal Chugh<br/>
+                        Posted 5 Photos. 5 days ago</P>
+                        <button type="button" class="btn-close" aria-label="Close"></button>
+                    </header>
+                <div class="row image-section">
+                    <div class="col-6">
+                        <img src="https://unsplash.it/500/250?id=2">
+                    </div>
+                    <div class="col-6">
+                        <div class="row ">
+                            <div class="col-6">
+                                <img src="https://unsplash.it/245/118?id=3" class="post-image mb-2">
+                                <img src="https://unsplash.it/245/118?id=4" class="post-image mt-2">
+                            </div>
+                            <div class="col-6">
+                                <img src="https://unsplash.it/245/118?id=6" class="post-image mb-2">
+                                <img src="https://unsplash.it/245/118?id=5" class="post-image mt-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--Activity tab close-->
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!--Form Tab Start-->
+                    <form class="setting-form bg-white">
+                        <div class="row mb-3">
+                            <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
+                        </div>
+                        <div class="row mb-3">
+                        <label for="inputExperiernce" class="col-sm-2 col-form-label">Experience</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputExperiernce">
+                        </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputSkills" class="col-sm-2 col-form-label">Skills</label>
+                            <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputSkills">
+                            </div>
+                        </div>
+                        </fieldset>
+                        <div class="row mb-3">
+                        <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                                I agree to the <a href="#">terms and conditions</a>
+                            </label>
+                            </div>
+                        </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <!--Form tab End-->
+                </div>
+            </div>
+            <!--Nav tab End-->
+            </div>
+            </div>
+        </div>
+        <!--Sidebar Start-->
+
+        <!--Sidebar End-->
+        <!--main profile Start-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>  
+        
+    </body>
+</html>

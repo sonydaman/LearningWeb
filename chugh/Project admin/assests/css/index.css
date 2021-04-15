@@ -1,0 +1,34 @@
+.main-header{
+    background-color: #3c8dbc;
+
+}
+.nav-icons{
+    display: flex;
+}
+.user-image{
+    width: 5%;
+}
+.content{
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgb(160, 228, 255);
+}
+.content-header{
+    justify-content: space-between;
+    padding: 15px 15px 0px;
+}
+.act-img{
+    width: 10%;
+}
+.setting-form{
+    padding: 10px;
+}
+.card-img-top{
+    width: 40%;
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    margin-bottom: 20px;
+}
