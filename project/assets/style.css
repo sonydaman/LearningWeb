@@ -19,7 +19,9 @@
   position: absolute;
   top: 50%;
 }
-
+.content-img{
+  width: 100%;
+}
 .container-2{
   width: 1519px;
   padding: 90px 0 80px;
