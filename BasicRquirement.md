@@ -21,7 +21,7 @@ The course will take twelve weeks
 After this course you will be able to work on html & learn how to make a website in html.
 (Responsive website,database interaction with php)
 
-There will be three days Demo classes.
+There will be one day Demo classes.
 After the Demo your are expected to pay Monthly Charges
 
 Your enquiries are always welcomed.
