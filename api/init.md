@@ -1,5 +1,7 @@
 # The Setup
-pip install "fastapi[standard]"
+
+pip install fastapi uvicorn
+# pip install fastapi uvicorn
 
 ## STEP 1
 
@@ -34,7 +36,11 @@ def read_items(skip: int = 0, limit: int = 10):
     # This slices the list based on the user's input
     return fake_items_db[skip : skip + limit]
 ```
+## Test
+```
+curl http://127.0.0.1:8000/items/42
 
+```
 from pydantic import BaseModel
 from typing import Optional
 # STEP 4
@@ -55,6 +61,14 @@ def create_item(item: Item):
         item_dict.update({"price_with_tax": price_with_tax})
     return item_dict
 ```
+## Test
+```
+curl -X POST "http://127.0.0.1:8000/items/" \
+     -H "Content-Type: application/json" \
+     -d '{"name": "Test Item", "price": 100.0, "tax": 10.0}'
+
+```
+
 ---
 # STEP 5
 
@@ -70,8 +84,14 @@ from fastapi import FastAPI, status
 )
 def create_item(item: Item):
     return item
-```
 
+```
+## Test
+```
+curl -i -X POST "http://127.0.0.1:8000/items/" \
+     -H "Content-Type: application/json" \
+     -d '{"name": "Verified Item", "price": 100.0, "tax": 5.0}'
+```
 ---
 
 # Step 6: Response Models
@@ -95,8 +115,17 @@ def create_user(user: UserIn):
     # Notice we return the WHOLE user object (with password)
     return user
 ```
+
+## Test
+```
+ccurl -X POST "http://127.0.0.1:8000/user/" \
+     -H "Content-Type: application/json" \
+     -d '{"username": "jdoe", "password": "secretpassword", "email": "jdoe@example.com"}'
+
+```
 ---
 # Step 7: Dependency Injection
+## pip install sqlalchemy email-validator
 ```
 from typing import Annotated
 from fastapi import Depends, HTTPException, Header
@@ -161,3 +190,11 @@ def create_item_in_db(name: str, db=Depends(get_db)):
     return new_item
 
 ```
+## Test
+```
+curl -X POST "http://127.0.0.1:8000/items/db/?name=DatabaseItem"
+
+```
+---
+
+
